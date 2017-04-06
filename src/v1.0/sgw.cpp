@@ -1,8 +1,9 @@
 #include "sgw.h"
+#include "discover.h"
 
-string g_sgw_s11_ip_addr = "192.168.1.74";
-string g_sgw_s1_ip_addr = "192.168.1.74";
-string g_sgw_s5_ip_addr = "192.168.1.74";
+string g_sgw_s11_ip_addr = resolve_host("sgw");
+string g_sgw_s1_ip_addr = resolve_host("sgw");
+string g_sgw_s5_ip_addr = resolve_host("sgw");
 int g_sgw_s11_port = 7000;
 int g_sgw_s1_port = 7100;
 int g_sgw_s5_port = 7200;
