@@ -1,0 +1,30 @@
+<head>
+  <title>L7-loadbalancer with Monolithic MME-POOL</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>L7-loadbalancer with Monolithic MME-POOL</h1>
+  <div class="graph">
+    <p>Simulation starts with 10-UE threads and 10 more UE threads are added for every 90 sec. Load is varied until limit reaches to 300 UEs. Thereafter, number of UE threads are decreased to 200 to check auto scaling of VNFs. Again, number of UE threads are increased until 300. And this load distribution process is repeated throughout the simulation time.</p>
+<iframe src="https://cnsmme.geekon.tech/dashboard-solo/snapshot/OMnBhAn73PPe7aBNq5Tcnt6ehNZnS1ob?orgId=0&panelId=1" width="100%" height="300" frameborder="0"></iframe>
+  </div>
+  <div class="graph">
+    <p><b>MME Throughput</b>: Number of control signals processed per second by MME. L7 Load Balancer with Monolithic MME-POOL 13.19% lower throughput than L4 Load Balancer with Monolithic MME-POOL. L4-loadbalancer forwards packets based on IP tables to a MME pool, without inspecting the content of the packets. Hence its processing overhead is lower. Where as L7-loadbalancer deals with the actual packet inspection and processing in order to forward it to the right LW-VNF-POOL. Hence, it leads to slower control signal processing and lesser MME throughput.
+</p>
+<iframe src="https://cnsmme.geekon.tech/dashboard-solo/snapshot/OMnBhAn73PPe7aBNq5Tcnt6ehNZnS1ob?orgId=0&panelId=2" width="100%" height="300" frameborder="0"></iframe>
+  </div>
+  <div class="graph">
+    <p>The Number of Monolothic MME Instances.</p>
+<iframe src="https://cnsmme.geekon.tech/dashboard-solo/snapshot/OMnBhAn73PPe7aBNq5Tcnt6ehNZnS1ob?orgId=0&panelId=5" width="100%" height="300" frameborder="0"></iframe>
+  </div>
+  <div class="graph">
+    <p><b>Total CPU Utilisation</b>:L7-loadbalancer CPU utilization is also almost equal to L4-loadbalancer CPU utilization</p>
+<iframe src="https://cnsmme.geekon.tech/dashboard-solo/snapshot/OMnBhAn73PPe7aBNq5Tcnt6ehNZnS1ob?orgId=0&panelId=6" width="100%" height="300" frameborder="0"></iframe>
+  </div>
+  <div class="graph">
+    <iframe src="https://cnsmme.geekon.tech/dashboard-solo/snapshot/OMnBhAn73PPe7aBNq5Tcnt6ehNZnS1ob?orgId=0&panelId=4" width="100%" height="300" frameborder="0"></iframe>
+  </div>
+  <div class="graph">
+    <iframe src="https://cnsmme.geekon.tech/dashboard-solo/snapshot/OMnBhAn73PPe7aBNq5Tcnt6ehNZnS1ob?orgId=0&panelId=8" width="100%" height="300" frameborder="0"></iframe>
+  </div>
+</body>

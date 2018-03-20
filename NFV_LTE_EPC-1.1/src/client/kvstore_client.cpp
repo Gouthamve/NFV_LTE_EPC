@@ -110,7 +110,7 @@ public:
     server_addr.sin_family = AF_INET;
     if(!inet_aton(ip.c_str(), &server_addr.sin_addr))
     {
-      fprintf(stderr, "ERROR invalid server IP address\n");
+      fprintf(stderr, "ERROR invalid server IP address: %s\n", ip_addr.c_str());
       exit(1);
     }
     server_addr.sin_port = htons(portnum);

@@ -10,7 +10,7 @@
 //string g_pgw_s5_ip_addr = "192.168.1.76";
 
 string g_trafmon_ip_addr = resolve_host("ran");
-string g_mme_ip_addr = resolve_host("mme");
+string g_mme_ip_addr = "0.0.0.0"; 
 string g_hss_ip_addr = resolve_host("hss");
 string g_sgw_s11_ip_addr = resolve_host("sgw");
 string g_sgw_s1_ip_addr = resolve_host("sgw");
@@ -140,6 +140,7 @@ void Mme::handle_initial_attach(int conn_fd, Packet pkt, SctpClient &hss_client)
 	ue_count++;
 	mme_s1ap_ue_id = ue_count;
 	s1mme_id[mme_s1ap_ue_id] = guti;
+  cout << "GUUUUUUUUUUUUUTI: " << guti << " ejejej " << mme_s1ap_ue_id << endl;
 	g_sync.munlock(s1mmeid_mux);
 
 	g_sync.mlock(uectx_mux);
@@ -397,6 +398,8 @@ void Mme::handle_create_session(int conn_fd, Packet pkt, UdpClient &sgw_client) 
 	pkt.extract_item(s5_uteid_ul);
 	pkt.extract_item(s5_uteid_dl);
 
+  TRACE(cout << ue_ip_addr << endl;);
+
 	g_sync.mlock(uectx_mux);
 	ue_ctx[guti].ip_addr = ue_ip_addr;
 	ue_ctx[guti].s11_cteid_sgw = s11_cteid_sgw;
@@ -441,6 +444,7 @@ void Mme::handle_create_session(int conn_fd, Packet pkt, UdpClient &sgw_client) 
 		g_integrity.add_hmac(pkt, k_nas_int);
 	}
 	pkt.prepend_s1ap_hdr(3, pkt.len, pkt.s1ap_hdr.enodeb_s1ap_ue_id, pkt.s1ap_hdr.mme_s1ap_ue_id);
+
 	server.snd(conn_fd, pkt);
 	TRACE(cout << "mme_createsession:" << " attach accept sent to ue: " << pkt.len << ": " << guti << endl;)
 }
@@ -455,7 +459,7 @@ void Mme::handle_attach_complete(Packet pkt) {
 
 	guti = get_guti(pkt);
 	if (guti == 0) {
-		TRACE(cout << "mme_handleattachcomplete:" << " zero guti " << pkt.s1ap_hdr.mme_s1ap_ue_id << " " << pkt.len << ": " << guti << endl;		)
+		TRACE(cout << "mme_handleattachcomplete:" << " zero guti " << pkt.s1ap_hdr.mme_s1ap_ue_id << " " << pkt.len << ": " << guti << endl;)
 		g_utils.handle_type1_error(-1, "Zero guti: mme_handleattachcomplete");
 	}
 		

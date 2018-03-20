@@ -1,11 +1,40 @@
 #include "ran_simulator.h"
 
+auto registry = std::make_shared<prometheus::Registry>();
+
+
 time_t g_start_time;
+auto& gf1 = prometheus::BuildGauge()
+							.Name("start_time").Help("").Register(*registry);
+auto& start_time_gauge = gf1.Add({});
+									
+
 int g_threads_count;
+auto& gf2 = prometheus::BuildGauge()
+							.Name("ue_count").Help("").Register(*registry);
+auto& threads_count_gauge = gf2.Add({});
+
 uint64_t g_req_dur;
+auto& gf3 = prometheus::BuildGauge()
+							.Name("request_duration").Help("").Register(*registry);
+auto& req_dur_gauge = gf3.Add({});
+
+
 uint64_t g_run_dur;
+
+
 int g_tot_regs;
+auto& cf1 = prometheus::BuildCounter()
+							.Name("registrations_total").Help("").Register(*registry);
+auto& regs_tot = cf1.Add({});
+
+
 uint64_t g_tot_regstime;
+auto& cf2 = prometheus::BuildCounter()
+							.Name("registrations_time_total").Help("").Register(*registry);
+auto& regs_time_tot = cf2.Add({});
+
+
 pthread_mutex_t g_mux;
 vector<thread> g_umon_thread;
 vector<thread> g_dmon_thread;
@@ -52,6 +81,8 @@ void simulate(int arg) {
 	ran.init(ran_num);
 	ran.conn_mme();
 
+  TRACE(cout << "HUHHUHUH?" << endl;)
+
 	while (1) {
 		// Run duration check
 		g_utils.time_check(g_start_time, g_req_dur, time_exceeded);
@@ -95,7 +126,7 @@ void simulate(int arg) {
 		*/ 
 
 		/* Data transfer */
-		ran.transfer_data(g_req_dur);
+    //ran.transfer_data(g_req_dur);
 		
 		// Detach
 		ok = ran.detach();
@@ -115,6 +146,9 @@ void simulate(int arg) {
 		g_tot_regs++;
 		g_tot_regstime += mtime_diff_us.count();		
 		g_sync.munlock(g_mux);			
+		
+		regs_tot.Increment();
+		regs_time_tot.Increment(mtime_diff_us.count());
 	}
 }
 
@@ -127,8 +161,15 @@ void check_usage(int argc) {
 
 void init(char *argv[]) {
 	g_start_time = time(0);
+	start_time_gauge.SetToCurrentTime();
+
 	g_threads_count = atoi(argv[1]);
+	threads_count_gauge.Set(g_threads_count*10);
+
 	g_req_dur = atoi(argv[2]);
+  req_dur_gauge.Set(g_req_dur);
+		
+
 	g_tot_regs = 0;
 	g_tot_regstime = 0;
 	g_sync.mux_init(g_mux);	
@@ -142,24 +183,24 @@ void run() {
 	int i;
 
 	/* Tun */
-	g_traf_mon.tun.set_itf("tun1", "172.16.0.1/16");
-	g_traf_mon.tun.conn("tun1");
+  //g_traf_mon.tun.set_itf("tun1", "172.16.0.1/16");
+  //g_traf_mon.tun.conn("tun1");
 
 	/* Traffic monitor server */
-	TRACE(cout << "Traffic monitor server started" << endl;)
-	g_traf_mon.server.run(g_trafmon_ip_addr, g_trafmon_port);	
+  //TRACE(cout << "Traffic monitor server started" << endl;)
+  //g_traf_mon.server.run(g_trafmon_ip_addr, g_trafmon_port);	
 
 	// Uplink traffic monitor
-	for (i = 0; i < NUM_MONITORS; i++) {
-		g_umon_thread[i] = thread(utraffic_monitor);
-		g_umon_thread[i].detach();		
-	}
+	//for (i = 0; i < NUM_MONITORS; i++) {
+		//g_umon_thread[i] = thread(utraffic_monitor);
+		//g_umon_thread[i].detach();		
+	//}
 
 	// Downlink traffic monitor
-	for (i = 0; i < NUM_MONITORS; i++) {
-		g_dmon_thread[i] = thread(dtraffic_monitor);
-		g_dmon_thread[i].detach();			
-	}
+	//for (i = 0; i < NUM_MONITORS; i++) {
+		//g_dmon_thread[i] = thread(dtraffic_monitor);
+		//g_dmon_thread[i].detach();			
+	//}
 	
 	// Simulator threads
 	for (i = 0; i < g_threads_count; i++) {
@@ -185,6 +226,9 @@ void print_results() {
 }
 
 int main(int argc, char *argv[]) {
+  prometheus::Exposer exposer("0.0.0.0:8081");
+  exposer.RegisterCollectable(registry);
+
 	check_usage(argc);
 	init(argv);
 	run();

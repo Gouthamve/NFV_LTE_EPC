@@ -16,6 +16,10 @@
 #include "udp_server.h"
 #include "utils.h"
 
+#include <prometheus/exposer.h>
+#include <prometheus/registry.h>
+#include <prometheus/gauge_builder.h>
+
 #define NUM_MONITORS 50
 
 extern time_t g_start_time;

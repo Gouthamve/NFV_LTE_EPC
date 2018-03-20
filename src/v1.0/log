@@ -1,0 +1,373 @@
+Thu Mar 30 20:25:00 2017 TUN/TAP device tun1 opened
+Thu Mar 30 20:25:00 2017 Persist state set to: OFF
+Thu Mar 30 20:25:00 2017 TUN/TAP device tun1 opened
+Thu Mar 30 20:25:00 2017 Persist state set to: ON
+Traffic monitor server started
+ran_initialattach: request sent for ran: ran_initialattach: request sent for ran: 119000000000
+ran_initialattach: request sent for ran: 119000000001
+ran_initialattach: request sent for ran: 119000000003
+119000000002
+ran_initialattach: request sent for ran: 119000000012
+ran_initialattach: request sent for ran: 119000000009
+ran_initialattach: request sent for ran: 119000000016
+ran_initialattach:ran_initialattach: request sent for ran:  request sent for ran: 119000000017119000000014
+
+ran_initialattach: request sent for ran: 119000000013
+ran_initialattach: request sent for ran: 119000000019
+ran_initialattach: request sent for ran: 119000000018
+ran_initialattach: request sent for ran: 119000000015
+ran_initialattach: request sent for ran: 119000000010
+ran_initialattach: request sent for ran: 119000000008
+ran_initialattach: request sent for ran: 119000000007
+ran_initialattach: request sent for ran: 119000000005
+ran_initialattach: request sent for ran: 119000000004
+ran_initialattach: request sent for ran: 119000000006
+ran_initialattach: request sent for ran: 119000000011
+ran_authenticate:  received request for ran: 119000000001
+ran_authenticate:  autn: 9 rand: 3 ksiasme: 1: 119000000001
+ran_authenticate: autn success: 119000000001
+ran_authenticate: autn response sent to mme: 119000000001
+ran_setsecurity:  received request for ran: 58: 119000000001
+ran_setsecurity: security mode command success: 119000000001
+ran_setsecurity: security mode complete sent to mme: 48: 119000000001
+ran_setepssession: attach accept received from mme: 112: 119000000001
+ran_setepssession: attach complete sent to mme: 48: 119000000001
+ran_authenticate:  received request for ran: 119000000002
+ran_authenticate:  autn: 12 rand: 4 ksiasme: 1: 119000000002
+ran_authenticate: autn success: 119000000002
+ran_authenticate: autn response sent to mme: 119000000002
+ran_setsecurity:  received request for ran: 58: 119000000002
+ran_setsecurity: security mode command success: 119000000002
+ran_setsecurity: security mode complete sent to mme: 48: 119000000002
+ran_setepssession: attach accept received from mme: 112: 119000000002
+ran_setepssession: attach complete sent to mme: 48: 119000000002
+ran_authenticate:  received request for ran: 119000000000
+ran_authenticate:  autn: 6 rand: 2 ksiasme: 1: 119000000000
+ran_authenticate: autn success: 119000000000
+ran_authenticate: autn response sent to mme: 119000000000
+ran_setsecurity:  received request for ran: 58: 119000000000
+ran_setsecurity: security mode command success: 119000000000
+ran_authenticate:  received request for ran: 119000000013
+ran_authenticate:  autn: 45 rand: 15 ksiasme: 1: 119000000013
+ran_authenticate: autn success: 119000000013
+ran_authenticate: autn response sent to mme: 119000000013
+ran_setsecurity:  received request for ran: 58: 119000000013
+ran_setsecurity: security mode command success: 119000000013
+ran_setsecurity: security mode complete sent to mme: 48: 119000000000
+ran_setsecurity: security mode complete sent to mme: 48: 119000000013
+ran_setepssession: attach accept received from mme: 112: 119000000013
+ran_setepssession: attach accept received from mme: 112: 119000000000
+ran_setepssession: attach complete sent to mme: 48: 119000000000
+ran_setepssession: attach complete sent to mme: 48: 119000000013
+ran_authenticate:  received request for ran: 119000000015
+ran_authenticate:  autn: 51 rand: 17 ksiasme: 1: 119000000015
+ran_authenticate: autn success: 119000000015
+ran_authenticate: autn response sent to mme: 119000000015
+ran_setsecurity:  received request for ran: 58: 119000000015
+ran_setsecurity: security mode command success: 119000000015
+ran_setsecurity: security mode complete sent to mme: 48: 119000000015
+ran_setepssession: attach accept received from mme: 112: 119000000015
+ran_authenticate:  received request for ran: 119000000019
+ran_authenticate:  autn: 63 rand: 21 ksiasme: 1: 119000000019
+ran_authenticate: autn success: 119000000019
+ran_setepssession: attach complete sent to mme: 48: 119000000015
+ran_authenticate: autn response sent to mme: 119000000019
+ran_setsecurity:  received request for ran: 58: 119000000019
+ran_setsecurity: security mode command success: 119000000019
+ran_setsecurity: security mode complete sent to mme: 48: 119000000019
+ran_setepssession: attach accept received from mme: 112: 119000000019
+ran_setepssession: attach complete sent to mme: 48: 119000000019
+ran_authenticate:  received request for ran: 119000000009
+ran_authenticate:  autn: 33 rand: 11 ksiasme: 1: 119000000009
+ran_authenticate: autn success: 119000000009
+ran_authenticate:  received request for ran: 119000000018
+ran_authenticate:  autn: 60 rand: 20 ksiasme: 1: 119000000018
+ran_authenticate: autn success: 119000000018
+ran_authenticate: autn response sent to mme: 119000000009
+ran_setsecurity:  received request for ran: 58: 119000000009
+ran_setsecurity: security mode command success: 119000000009
+ran_authenticate: autn response sent to mme: 119000000018
+ran_setsecurity:  received request for ran: 58: 119000000018
+ran_setsecurity: security mode command success: 119000000018
+ran_setsecurity: security mode complete sent to mme: 48: 119000000009
+ran_setsecurity: security mode complete sent to mme: 48: 119000000018
+ran_setepssession: attach accept received from mme: 112: 119000000018
+ran_setepssession: attach complete sent to mme: 48: 119000000018
+ran_authenticate:  received request for ran: 119000000017
+ran_authenticate:  autn: 57 rand: 19 ksiasme: 1: 119000000017
+ran_authenticate: autn success: 119000000017
+ran_authenticate: autn response sent to mme: 119000000017
+ran_setepssession: attach accept received from mme: 112ran_setsecurity: :  received request for ran: 11900000000958: 
+119000000017
+ran_setsecurity: security mode command success: 119000000017
+ran_setepssession: attach complete sent to mme: 48: 119000000009
+ran_setsecurity: security mode complete sent to mme: 48: 119000000017
+ran_setepssession: attach accept received from mme: 112: 119000000017
+ran_setepssession: attach complete sent to mme: 48: 119000000017
+ran_authenticate:  received request for ran: 119000000008
+ran_authenticate:  autn: 30 rand: 10 ksiasme: 1: 119000000008
+ran_authenticate: autn success: 119000000008
+ran_authenticate: autn response sent to mme: 119000000008
+ran_setsecurity:  received request for ran: 58: 119000000008
+ran_setsecurity: security mode command success: 119000000008
+ran_setsecurity: security mode complete sent to mme: 48: 119000000008
+ran_setepssession: attach accept received from mme: 112: 119000000008
+ran_setepssession: attach complete sent to mme: 48: 119000000008
+ran_authenticate:  received request for ran: 119000000012
+ran_authenticate:  autn: 42 rand: 14 ksiasme: 1: 119000000012
+ran_authenticate: autn success: 119000000012
+ran_authenticate: autn response sent to mme: 119000000012
+ran_setsecurity:  received request for ran: 58: 119000000012
+ran_setsecurity: security mode command success: 119000000012
+ran_authenticate:  received request for ran: 119000000016
+ran_authenticate:  autn: 54 rand: 18 ksiasme: 1: 119000000016
+ran_authenticate: autn success: 119000000016
+ran_authenticate: autn response sent to mme: 119000000016
+ran_setsecurity:  received request for ran: 58: 119000000016
+ran_setsecurity: security mode command success: 119000000016
+ran_setsecurity: security mode complete sent to mme: 48: 119000000016
+ran_setsecurity: security mode complete sent to mme: 48: 119000000012
+ran_setepssession: attach accept received from mme: 112: 119000000012
+ran_setepssession: attach accept received from mme: 112: 119000000016
+ran_setepssession: attach complete sent to mme: 48: 119000000016
+ran_setepssession: attach complete sent to mme: 48: 119000000012
+ran_authenticate:  received request for ran: 119000000010
+ran_authenticate:  autn: 36 rand: 12 ksiasme: 1: 119000000010
+ran_authenticate: autn success: 119000000010
+ran_authenticate: autn response sent to mme: 119000000010
+ran_setsecurity:  received request for ran: 58: 119000000010
+ran_setsecurity: security mode command success: 119000000010
+ran_setsecurity: security mode complete sent to mme: 48: 119000000010
+ran_setepssession: attach accept received from mme: 112: 119000000010
+ran_setepssession: attach complete sent to mme: 48: 119000000010
+iperf3 -B 172.16.1.5 -c 172.16.0.2 -p 55002 -b 10M -M 800 -t 300 2>&1
+ran_authenticate:  received request for ran: 119000000005
+ran_authenticate:  autn: 21 rand: 7 ksiasme: 1: 119000000005
+ran_authenticate: autn success: 119000000005
+ran_authenticate: autn response sent to mme: 119000000005
+ran_setsecurity:  received request for ran: 58: 119000000005
+ran_setsecurity: security mode command success: 119000000005
+ran_setsecurity: security mode complete sent to mme: 48: 119000000005
+ran_setepssession: attach accept received from mme: 112: 119000000005
+ran_setepssession: attach complete sent to mme: 48: 119000000005
+ran_authenticate:  received request for ran: 119000000014
+ran_authenticate:  autn: 48 rand: 16 ksiasme: 1: 119000000014
+ran_authenticate: autn success: 119000000014
+ran_authenticate: autn response sent to mme: 119000000014
+ran_setsecurity:  received request for ran: 58: 119000000014
+ran_setsecurity: security mode command success: 119000000014
+ran_setsecurity: security mode complete sent to mme: 48: 119000000014
+ran_setepssession: attach accept received from mme: 112: 119000000014
+ran_setepssession: attach complete sent to mme: 48: 119000000014
+ran_authenticate:  received request for ran: 119000000006
+ran_authenticate:  autn: 24 rand: 8 ksiasme: 1: 119000000006
+ran_authenticate: autn success: 119000000006
+ran_authenticate:  received request for ran: 119000000007
+ran_authenticate:  autn: 27 rand: 9 ksiasme: 1: 119000000007
+ran_authenticate: autn success: 119000000007
+ran_authenticate: autn response sent to mme: 119000000007
+ran_setsecurity:  received request for ran: 58: 119000000007
+ran_setsecurity: security mode command success: 119000000007
+ran_authenticate: autn response sent to mme: 119000000006
+ran_setsecurity:  received request for ran: 58: 119000000006
+ran_setsecurity: security mode command success: 119000000006
+ran_authenticate:  received request for ran: 119000000003
+ran_authenticate:  autn: 15 rand: 5 ksiasme: 1: 119000000003
+ran_authenticate: autn success: 119000000003
+ran_authenticate:  received request for ran: 119000000004
+ran_authenticate:  autn: 18 rand: 6 ksiasme: 1: 119000000004
+ran_authenticate: autn success: 119000000004
+ran_authenticate: autn response sent to mme: 119000000004
+ran_setsecurity:  received request for ran: 58: 119000000004
+ran_setsecurity: security mode command success: 119000000004
+ran_setsecurity: security mode complete sent to mme: 48: 119000000004
+ran_setsecurity: security mode complete sent to mme: 48: 119000000007
+ran_setepssession: attach accept received from mme: 112: 119000000007
+ran_setepssession: attach complete sent to mme: 48: 119000000007
+ran_setsecurity:ran_setepssession: attach accept received from mme: 112: 119000000004
+ran_setepssession: attach complete sent to mme: 48: 119000000004
+ran_authenticate:iperf3 -B 172.16.1.16 -c 172.16.0.2 -p 55013 -b 10M -M 800 -t 300 2>&1
+ran_authenticate:  received request for ran: 119000000011
+ran_authenticate:  autn: 39 rand: 13 ksiasme: 1: 119000000011
+ran_authenticate: autn success: 119000000011
+ autn response sent to mme:  security mode complete sent to mme: ran_authenticate:48: 119000000006 autn response sent to mme: 
+119000000011
+ran_setsecurity:  received request for ran: 58: 119000000011
+ran_setepssession: attach accept received from mme: 112: 119000000006
+ran_setsecurity: security mode command success: 119000000011
+ran_setepssession: attach complete sent to mme: 48: 119000000006
+119000000003
+ran_setsecurity:  received request for ran: 58: 119000000003
+ran_setsecurity: security mode command success: 119000000003
+ran_setsecurity: security mode complete sent to mme: 48: 119000000011
+ran_setepssession: attach accept received from mme: 112: 119000000011
+ran_setepssession: attach complete sent to mme: 48: 119000000011
+ran_setsecurity: security mode complete sent to mme: 48: 119000000003
+ran_setepssession: attach accept received from mme: 112: 119000000003
+ran_setepssession: attach complete sent to mme: 48: 119000000003
+iperf3 -B 172.16.1.3 -c 172.16.0.2 -p 55000 -b 10M -M 800 -t 300 2>&1
+iperf3 -B 172.16.1.4 -c 172.16.0.2 -p 55001 -b 10M -M 800 -t 300 2>&1
+iperf3 -B 172.16.1.18 -c 172.16.0.2 -p 55015 -b 10M -M 800 -t 300 2>&1
+iperf3 -B 172.16.1.20 -c 172.16.0.2 -p 55017 -b 10M -M 800 -t 300 2>&1
+iperf3 -B 172.16.1.10 -c 172.16.0.2 -p 55007 -b 10M -M 800 -t 300 2>&1
+iperf3 -B 172.16.1.15 -c 172.16.0.2 -p 55012 -b 10M -M 800 -t 300 2>&1
+iperf3 -B 172.16.1.21 -c 172.16.0.2 -p 55018 -b 10M -M 800 -t 300 2>&1
+iperf3 -B 172.16.1.9 -c 172.16.0.2 -p 55006 -b 10M -M 800 -t 300 2>&1
+iperf3 -B 172.16.1.22 -c 172.16.0.2 -p 55019 -b 10M -M 800 -t 300 2>&1
+iperf3 -B 172.16.1.19 -c 172.16.0.2 -p 55016 -b 10M -M 800 -t 300 2>&1
+iperf3 -B 172.16.1.12 -c 172.16.0.2 -p 55009 -b 10M -M 800 -t 300 2>&1
+iperf3 -B 172.16.1.13 -c 172.16.0.2 -p 55010 -b 10M -M 800 -t 300 2>&1
+iperf3 -B 172.16.1.8 -c 172.16.0.2 -p 55005 -b 10M -M 800 -t 300 2>&1
+iperf3 -B 172.16.1.6 -c 172.16.0.2 -p 55003 -b 10M -M 800 -t 300 2>&1
+iperf3 -B 172.16.1.17 -c 172.16.0.2 -p 55014 -b 10M -M 800 -t 300 2>&1
+iperf3 -B 172.16.1.14 -c 172.16.0.2 -p 55011 -b 10M -M 800 -t 300 2>&1
+iperf3 -B 172.16.1.11 -c 172.16.0.2 -p 55008 -b 10M -M 800 -t 300 2>&1
+iperf3 -B 172.16.1.7 -c 172.16.0.2 -p 55004 -b 10M -M 800 -t 300 2>&1
+iperf3: interrupt - the client has terminated
+iperf3: interrupt - the client has terminated
+iperf3: interrupt - the client has terminated
+iperf3: interrupt - the client has terminated
+iperf3: interrupt - the client has terminated
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+iperf3: interrupt - the client has terminated
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+iperf3: interrupt - the client has terminated
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+iperf3: interrupt - the client has terminated
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+iperf3: interrupt - the client has terminated
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+iperf3: interrupt - the client has terminated
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+iperf3: interrupt - the client has terminated
+iperf3: interrupt - the client has terminated
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+iperf3: interrupt - the client has terminated
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+iperf3: interrupt - the client has terminated
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+iperf3: interrupt - the client has terminated
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+iperf3: interrupt - the client has terminated
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+iperf3: interrupt - the client has terminated
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+ran_transferdata: transfer done for ran: 119000000014
+ran_transferdata:ran_transferdata: transfer done for ran: 119000000006
+ran_transferdata: transfer done for ran: 119000000004
+ran_detach:ran_detach: detach request sent to mme:  detach request sent to mme: 64: 119000000014
+iperf3: interrupt - the client has terminated
+64: 119000000006
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+ran_transferdata: transfer done for ran: 119000000008
+ran_detach: detach request sent to mme: 64: 119000000008
+ran_transferdata: transfer done for ran: 119000000013
+iperf3: interrupt - the client has terminated
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+ran_detach: detach request sent to mme: 64: 119000000013
+ran_detach: detach request sent to mme: 64: 119000000004
+ran_transferdata: transfer done for ran: 119000000005
+ran_transferdata: transfer done for ran: 119000000002
+ transfer done for ran: 119000000018
+ran_detach: detach request sent to mme: 64: 119000000002
+ran_transferdata: transfer done for ran: 119000000000
+ran_transferdata: transfer done for ran: 119000000007
+ran_transferdata: transfer done for ran: 119000000019
+ran_detach: detach request sent to mme: 64: 119000000007
+ran_transferdata: transfer done for ran: 119000000012
+ran_detach: detach request sent to mme: 64: 119000000019
+ran_detach: detach request sent to mme: 64: 119000000012
+ran_transferdata: transfer done for ran: 119000000003
+ran_detach: detach complete received from mme: 48: 119000000006
+ran_detach: detach successful: 119000000006
+ran_detach: detach complete received from mme: 48: 119000000008
+ran_detach: detach successful: 119000000008
+ran_detach: detach request sent to mme: 64: 119000000003
+ran_detach: detach complete received from mme: 48: 119000000014
+ran_detach: detach successful: 119000000014
+ran_transferdata: transfer done for ran: 119000000001
+ran_transferdata: transfer done for ran: 119000000016
+ran_detach: detach request sent to mme: 64: 119000000016
+ran_detach: detach complete received from mme: 48: 119000000019
+ran_detach: detach successful: 119000000019
+iperf3: interrupt - the client has terminated
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bandwidth       Retr
+ran_transferdata: transfer done for ran: 119000000010
+ran_detach: detach request sent to mme: 64: 119000000001
+ran_detach: detach request sent to mme: 64: 119000000010
+ran_detach: detach complete received from mme: 48: 119000000004
+ran_transferdata: transfer done for ran: ran_transferdata: transfer done for ran: 119000000015119000000009
+ran_detach: detach complete received from mme: 48: 119000000003
+ran_detach: detach successful: 119000000003
+
+ran_detach: detach complete received from mme: 48: 119000000012
+ran_detach: detach successful: 119000000012
+ran_detach: detach request sent to mme: 64: 119000000015
+ran_detach:ran_detach: detach successful:  detach request sent to mme: 11900000000464
+: 119000000009
+ran_detach: detach complete received from mme: 48: 119000000016
+ran_detach: detach successful: 119000000016
+ran_transferdata: transfer done for ran: 119000000017
+ran_detach: detach request sent to mme: 64: 119000000017
+ran_detach: detach complete received from mme: 48: 119000000001
+ran_detach: detach successful: 119000000001
+ran_detach: detach complete received from mme: 48: 119000000010
+ran_detach: detach successful: 119000000010
+ran_detach: detach complete received from mme: 48: 119000000015
+ran_detach: detach successful: 119000000015
+ran_detach: detach complete received from mme: 48: 119000000007
+ran_detach: detach successful: 119000000007
+ran_detach: detach complete received from mme: 48: 119000000013
+ran_detach: detach successful: 119000000013
+ran_detach: detach request sent to mme: 64: 119000000005
+ran_detach: detach request sent to mme: 64: 119000000018
+ran_detach: detach complete received from mme: 48: 119000000018
+ran_detach: detach successful: 119000000018
+ran_detach: detach request sent to mme: 64: 119000000000
+ran_detach: detach complete received from mme: 48: 119000000000
+ran_detach: detach successful: 119000000000
+ran_detach: detach complete received from mme: 48: 119000000017
+ran_detach: detach successful: 119000000017
+ran_detach: detach complete received from mme: 48: 119000000009
+ran_detach: detach successful: 119000000009
+ran_detach: detach complete received from mme: 48: 119000000002
+ran_detach: detach successful: 119000000002
+ran_detach: detach complete received from mme: 48: 119000000005
+ran_detach: detach successful: 119000000005
+ran_transferdata: transfer done for ran: 119000000011
+ran_detach: detach request sent to mme: 64: 119000000011
+ran_detach: detach complete received from mme: 48: 119000000011
+ran_detach: detach successful: 119000000011
+
+
+Requested duration has ended. Finishing the program.
+Total number of registrations is 20
+Total time for registrations is 810.91 seconds
+Total run duration is 40 seconds
+Latency is 40.5455 seconds
+Throughput is 0.5

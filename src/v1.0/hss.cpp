@@ -1,7 +1,7 @@
 #include "hss.h"
 #include "discover.h"
 
-string g_hss_ip_addr = resolve_host("hss");
+string g_hss_ip_addr = "0.0.0.0";
 int g_hss_port = 6000;
 
 Hss::Hss() {

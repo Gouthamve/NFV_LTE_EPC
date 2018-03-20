@@ -1,0 +1,1786 @@
+MME server started
+mmeserver_handleue: case 1: initial attach
+mmeserver_handleue: case 1: initial attach
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000000
+GUUUUUUUUUUUUUTI: 1111119000000000 ejejej 1
+mme_handleinitialattach::ue entry added: 1111119000000000
+mme_handleinitialattach: request sent to hss: 1111119000000000
+mme_handleinitialattach: autn:6 rand:2 xres:5 k_asme:29 1111119000000000
+mme_handleinitialattach: autn request sent to ran: 1111119000000000
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000000
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000000
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: initial attach req received: 1111119000000030
+GUUUUUUUUUUUUUTI: 1111119000000030 ejejej 2
+mme_handleinitialattach::ue entry added: 1111119000000030
+mme_handleinitialattach: request sent to hss: 1111119000000030
+mme_handleinitialattach: initial attach req received: 1111119000000021
+GUUUUUUUUUUUUUTI: 1111119000000021 ejejej 3
+mme_handleinitialattach::ue entry added: 1111119000000021
+mme_handleinitialattach: request sent to hss: 1111119000000021
+mme_handleinitialattach: autn:96 rand:32 xres:95 k_asme:239 1111119000000030
+mme_handleinitialattach: autn request sent to ran: 1111119000000030
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: autn:69 rand:23 xres:68 k_asme:176 1111119000000021
+mme_handleinitialattach: autn request sent to ran: 1111119000000021
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000000
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000000
+mme_createsession: create session request sent to sgw: 1111119000000000
+mme_createsession: create session response received sgw: 1111119000000000
+172.16.1.3
+mme_createsession: attach accept sent to ue: 112: 1111119000000000
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: initial attach req received: 1111119000000002
+GUUUUUUUUUUUUUTI: 1111119000000002 ejejej 4
+mme_handleinitialattach::ue entry added: 1111119000000002
+mme_handleinitialattach: request sent to hss: 1111119000000002
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: autn:12 rand:4 xres:11 k_asme:43 1111119000000002
+mme_handleinitialattach: autn request sent to ran: 1111119000000002
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000007
+GUUUUUUUUUUUUUTI: 1111119000000007 ejejej 5
+mme_handleinitialattach::ue entry added: 1111119000000007
+mme_handleinitialattach: request sent to hss: 1111119000000007
+mme_handleinitialattach: initial attach req received: 1111119000000006
+GUUUUUUUUUUUUUTI: 1111119000000006 ejejej 6
+mme_handleinitialattach::ue entry added: 1111119000000006
+mme_handleinitialattach: request sent to hss: 1111119000000006
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000000
+mme_handleattachcomplete: attach completed: 1111119000000000
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000000
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000000
+mme_handlemodifybearer: eps session setup success: 1111119000000000
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: autn:27 rand:9 xres:26 k_asme:78 1111119000000007
+mme_handleinitialattach: autn request sent to ran: 1111119000000007
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: autn:24 rand:8 xres:23 k_asme:71 1111119000000006
+mme_handleinitialattach: autn request sent to ran: 1111119000000006
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000009
+GUUUUUUUUUUUUUTI: 1111119000000009 ejejej 7
+mme_handleinitialattach::ue entry added: 1111119000000009
+mme_handleinitialattach: request sent to hss: 1111119000000009
+mme_handleinitialattach: autn:33 rand:11 xres:32 k_asme:92 1111119000000009
+mme_handleinitialattach: autn request sent to ran: 1111119000000009
+mme_handleinitialattach: initial attach req received: 1111119000000010
+GUUUUUUUUUUUUUTI: 1111119000000010 ejejej 8
+mme_handleinitialattach::ue entry added: 1111119000000010
+mme_handleinitialattach: request sent to hss: 1111119000000010
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: autn:36 rand:12 xres:35 k_asme:99 1111119000000010
+mme_handleinitialattach: autn request sent to ran: 1111119000000010
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000000
+mme_handledetach: detach request sent to sgw: 1111119000000000
+mme_handledetach: detach response received from sgw: 1111119000000000
+mme_handledetach: detach complete sent to ue: 48: 1111119000000000
+mme_handledetach: ue entry removed: 1111119000000000
+mme_handledetach: detach successful: 1111119000000000
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: initial attach req received: 1111119000000004
+GUUUUUUUUUUUUUTI: 1111119000000004 ejejej 9
+mme_handleinitialattach::ue entry added: 1111119000000004
+mme_handleinitialattach: request sent to hss: 1111119000000004
+mme_handleinitialattach: autn:18 rand:6 xres:17 k_asme:57 1111119000000004
+mme_handleinitialattach: autn request sent to ran: 1111119000000004
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000028
+GUUUUUUUUUUUUUTI: 1111119000000028 ejejej 10
+mme_handleinitialattach::ue entry added: 1111119000000028
+mme_handleinitialattach: request sent to hss: 1111119000000028
+mme_handleinitialattach: autn:90 rand:30 xres:89 k_asme:225 1111119000000028
+mme_handleinitialattach: autn request sent to ran: 1111119000000028
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000013
+GUUUUUUUUUUUUUTI: 1111119000000013 ejejej 11
+mme_handleinitialattach::ue entry added: 1111119000000013
+mme_handleinitialattach: request sent to hss: 1111119000000013
+mme_handleinitialattach: autn:45 rand:15 xres:44 k_asme:120 1111119000000013
+mme_handleinitialattach: autn request sent to ran: 1111119000000013
+mme_handleinitialattach: initial attach req received: 1111119000000029
+GUUUUUUUUUUUUUTI: 1111119000000029 ejejej 12
+mme_handleinitialattach::ue entry added: 1111119000000029
+mme_handleinitialattach: request sent to hss: 1111119000000029
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: autn:93 rand:31 xres:92 k_asme:232 1111119000000029
+mme_handleinitialattach: autn request sent to ran: 1111119000000029
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000000
+GUUUUUUUUUUUUUTI: 1111119000000000 ejejej 13
+mme_handleinitialattach::ue entry added: 1111119000000000
+mme_handleinitialattach: request sent to hss: 1111119000000000
+mme_handleinitialattach: autn:6 rand:2 xres:5 k_asme:29 1111119000000000
+mme_handleinitialattach: autn request sent to ran: 1111119000000000
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: initial attach req received: 1111119000000023
+GUUUUUUUUUUUUUTI: 1111119000000023 ejejej 14
+mme_handleinitialattach::ue entry added: 1111119000000023
+mme_handleinitialattach: request sent to hss: 1111119000000023
+mme_handleinitialattach: initial attach req received: 1111119000000027
+GUUUUUUUUUUUUUTI: 1111119000000027 ejejej 15
+mme_handleinitialattach::ue entry added: 1111119000000027
+mme_handleinitialattach: request sent to hss: 1111119000000027
+mme_handleinitialattach: autn:75 rand:25 xres:74 k_asme:190 1111119000000023
+mme_handleinitialattach: autn request sent to ran: 1111119000000023
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: autn:87 rand:29 xres:86 k_asme:218 1111119000000027
+mme_handleinitialattach: autn request sent to ran: 1111119000000027
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000000
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000000
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: initial attach req received: 1111119000000017
+GUUUUUUUUUUUUUTI: 1111119000000017 ejejej 16
+mme_handleinitialattach::ue entry added: 1111119000000017
+mme_handleinitialattach: request sent to hss: 1111119000000017
+mme_handleinitialattach: autn:57 rand:19 xres:56 k_asme:148 1111119000000017
+mme_handleinitialattach: autn request sent to ran: 1111119000000017
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000019
+GUUUUUUUUUUUUUTI: 1111119000000019 ejejej 17
+mme_handleinitialattach::ue entry added: 1111119000000019
+mme_handleinitialattach: request sent to hss: 1111119000000019
+mme_handleinitialattach: autn:63 rand:21 xres:62 k_asme:162 1111119000000019
+mme_handleinitialattach: autn request sent to ran: 1111119000000019
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000022
+GUUUUUUUUUUUUUTI: 1111119000000022 ejejej 18
+mme_handleinitialattach::ue entry added: 1111119000000022
+mme_handleinitialattach: request sent to hss: 1111119000000022
+mme_handleinitialattach: autn:72 rand:24 xres:71 k_asme:183 1111119000000022
+mme_handleinitialattach: autn request sent to ran: 1111119000000022
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: initial attach req received: 1111119000000039
+GUUUUUUUUUUUUUTI: 1111119000000039 ejejej 19
+mme_handleinitialattach::ue entry added: 1111119000000039
+mme_handleinitialattach: request sent to hss: 1111119000000039
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: autn:123 rand:41 xres:122 k_asme:302 1111119000000039
+mme_handleinitialattach: autn request sent to ran: 1111119000000039
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000000
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000000
+mme_createsession: create session request sent to sgw: 1111119000000000
+mme_createsession: create session response received sgw: 1111119000000000
+172.16.1.3
+mme_createsession: attach accept sent to ue: 112: 1111119000000000
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: initial attach req received: 1111119000000016
+GUUUUUUUUUUUUUTI: 1111119000000016 ejejej 20
+mme_handleinitialattach::ue entry added: 1111119000000016
+mme_handleinitialattach: request sent to hss: 1111119000000016
+mme_handleinitialattach: initial attach req received: 1111119000000034
+GUUUUUUUUUUUUUTI: 1111119000000034 ejejej 21
+mme_handleinitialattach::ue entry added: 1111119000000034
+mme_handleinitialattach: request sent to hss: 1111119000000034
+mme_handleinitialattach: autn:54 rand:18 xres:53 k_asme:141 1111119000000016
+mme_handleinitialattach: autn request sent to ran: 1111119000000016
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: autn:108 rand:36 xres:107 k_asme:267 1111119000000034
+mme_handleinitialattach: autn request sent to ran: 1111119000000034
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000038
+GUUUUUUUUUUUUUTI: 1111119000000038 ejejej 22
+mme_handleinitialattach::ue entry added: 1111119000000038
+mme_handleinitialattach: request sent to hss: 1111119000000038
+mme_handleinitialattach: autn:120 rand:40 xres:119 k_asme:295 1111119000000038
+mme_handleinitialattach: autn request sent to ran: 1111119000000038
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000007
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000007
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000009
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000009
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000004
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000004
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000013
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000013
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000030
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000030
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000023
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000023
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000017
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000017
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000022
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000022
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: initial attach req received: 1111119000000037
+GUUUUUUUUUUUUUTI: 1111119000000037 ejejej 23
+mme_handleinitialattach::ue entry added: 1111119000000037
+mme_handleinitialattach: request sent to hss: 1111119000000037
+mme_handleinitialattach: autn:117 rand:39 xres:116 k_asme:288 1111119000000037
+mme_handleinitialattach: autn request sent to ran: 1111119000000037
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000002
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000002
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000016
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000016
+mmeserver_handleue: Connection closed
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000006
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000006
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000010
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000010
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000028
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000028
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000029
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000029
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000027
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000027
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000019
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000019
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000021
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000021
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000039
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000039
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000034
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000034
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000000
+mme_handleattachcomplete: attach completed: 1111119000000000
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000000
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000000
+mme_handlemodifybearer: eps session setup success: 1111119000000000
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000002
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000002
+mme_createsession: create session request sent to sgw: 1111119000000002
+mme_createsession: create session response received sgw: 1111119000000002
+172.16.1.5
+mme_createsession: attach accept sent to ue: 112: 1111119000000002
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000007
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000007
+mme_createsession: create session request sent to sgw: 1111119000000007
+mme_createsession: create session response received sgw: 1111119000000007
+172.16.1.10
+mme_createsession: attach accept sent to ue: 112: 1111119000000007
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000006
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000006
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000009
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000009
+mme_createsession: create session request sent to sgw: 1111119000000006
+mme_createsession: create session response received sgw: 1111119000000006
+172.16.1.9
+mme_createsession: create session request sent to sgw: 1111119000000009
+mme_createsession: attach accept sent to ue: 112: 1111119000000006
+mmeserver_handleue: Connection closed
+mme_createsession: create session response received sgw: 1111119000000009
+172.16.1.12
+mme_createsession: attach accept sent to ue: 112: 1111119000000009
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000010
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000010
+mme_createsession: create session request sent to sgw: 1111119000000010
+mme_createsession: create session response received sgw: 1111119000000010
+172.16.1.13
+mme_createsession: attach accept sent to ue: 112: 1111119000000010
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000004
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000004
+mme_createsession: create session request sent to sgw: 1111119000000004
+mmeserver_handleue: Connection closed
+mme_createsession: create session response received sgw: 1111119000000004
+172.16.1.7
+mme_createsession: attach accept sent to ue: 112: 1111119000000004
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000028
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000028
+mme_createsession: create session request sent to sgw: 1111119000000028
+mmeserver_handleue: Connection closed
+mme_createsession: create session response received sgw: 1111119000000028
+172.16.1.31
+mme_createsession: attach accept sent to ue: 112: 1111119000000028
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000013
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000013
+mme_createsession: create session request sent to sgw: 1111119000000013
+mmeserver_handleue: Connection closed
+mme_createsession: create session response received sgw: 1111119000000013
+172.16.1.16
+mme_createsession: attach accept sent to ue: 112: 1111119000000013
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000029
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000029
+mme_createsession: create session request sent to sgw: 1111119000000029
+mmeserver_handleue: Connection closed
+mme_createsession: create session response received sgw: 1111119000000029
+172.16.1.32
+mme_createsession: attach accept sent to ue: 112: 1111119000000029
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000030
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000030
+mme_createsession: create session request sent to sgw: 1111119000000030
+mme_createsession: create session response received sgw: 1111119000000030
+172.16.1.33
+mmeserver_handleue: case 3: security mode complete
+mme_createsession: attach accept sent to ue: 112: 1111119000000030
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000027
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000027
+mme_createsession: create session request sent to sgw: 1111119000000027
+mmeserver_handleue: Connection closed
+mme_createsession: create session response received sgw: 1111119000000027
+172.16.1.30
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000023
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000023
+mme_createsession: create session request sent to sgw: 1111119000000023
+mme_createsession: attach accept sent to ue: 112: 1111119000000027
+mmeserver_handleue: Connection closed
+mme_createsession: create session response received sgw: 1111119000000023
+172.16.1.26
+mme_createsession: attach accept sent to ue: 112: 1111119000000023
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000019
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000019
+mmeserver_handleue: Connection closed
+mme_createsession: create session request sent to sgw: 1111119000000019
+mme_createsession: create session response received sgw: 1111119000000019
+172.16.1.22
+mme_createsession: attach accept sent to ue: 112: 1111119000000019
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000017
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000017
+mme_createsession: create session request sent to sgw: 1111119000000017
+mme_createsession: create session response received sgw: 1111119000000017
+172.16.1.20
+mme_createsession: attach accept sent to ue: 112: 1111119000000017
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000021
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000021
+mmeserver_handleue: Connection closed
+mme_createsession: create session request sent to sgw: 1111119000000021
+mme_createsession: create session response received sgw: 1111119000000021
+172.16.1.24
+mme_createsession: attach accept sent to ue: 112: 1111119000000021
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000022
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000022
+mmeserver_handleue: Connection closed
+mme_createsession: create session request sent to sgw: 1111119000000022
+mme_createsession: create session response received sgw: 1111119000000022
+172.16.1.25
+mme_createsession: attach accept sent to ue: 112: 1111119000000022
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000039
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000039
+mme_createsession: create session request sent to sgw: 1111119000000039
+mmeserver_handleue: Connection closed
+mme_createsession: create session response received sgw: 1111119000000039
+172.16.1.42
+mme_createsession: attach accept sent to ue: 112: 1111119000000039
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000016
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000016
+mme_createsession: create session request sent to sgw: 1111119000000016
+mme_createsession: create session response received sgw: 1111119000000016
+172.16.1.19
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000034
+mme_createsession: attach accept sent to ue: 112: 1111119000000016
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000034
+mme_createsession: create session request sent to sgw: 1111119000000034
+mmeserver_handleue: Connection closed
+mme_createsession: create session response received sgw: 1111119000000034
+172.16.1.37
+mme_createsession: attach accept sent to ue: 112: 1111119000000034
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000038
+mmeserver_handleue: Connection closed
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000038
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000007
+mme_handleattachcomplete: attach completed: 1111119000000007
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000007
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000007
+mme_handlemodifybearer: eps session setup success: 1111119000000007
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000037
+mmeserver_handleue: Connection closed
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000037
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000009
+mme_handleattachcomplete: attach completed: 1111119000000009
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000009
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000009
+mme_handlemodifybearer: eps session setup success: 1111119000000009
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000004
+mme_handleattachcomplete: attach completed: 1111119000000004
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000004
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000004
+mme_handlemodifybearer: eps session setup success: 1111119000000004
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000013
+mme_handleattachcomplete: attach completed: 1111119000000013
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000013
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000013
+mme_handlemodifybearer: eps session setup success: 1111119000000013
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000030
+mme_handleattachcomplete: attach completed: 1111119000000030
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000030
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000030
+mme_handlemodifybearer: eps session setup success: 1111119000000030
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000023
+mme_handleattachcomplete: attach completed: 1111119000000023
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000023
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000023
+mme_handlemodifybearer: eps session setup success: 1111119000000023
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000017
+mme_handleattachcomplete: attach completed: 1111119000000017
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000017
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000006
+mme_handleattachcomplete: attach completed: 1111119000000006
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000006
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000017
+mme_handlemodifybearer: eps session setup success: 1111119000000017
+mmeserver_handleue: Connection closed
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000006
+mme_handlemodifybearer: eps session setup success: 1111119000000006
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000010
+mme_handleattachcomplete: attach completed: 1111119000000010
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000010
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000010
+mme_handlemodifybearer: eps session setup success: 1111119000000010
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000022
+mme_handleattachcomplete: attach completed: 1111119000000022
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000022
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000022
+mme_handlemodifybearer: eps session setup success: 1111119000000022
+mmeserver_handleue: Connection closed
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000028
+mme_handleattachcomplete: attach completed: 1111119000000028
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000028
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000028
+mme_handlemodifybearer: eps session setup success: 1111119000000028
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000038
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000038
+mme_createsession: create session request sent to sgw: 1111119000000038
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000029
+mme_handleattachcomplete: attach completed: 1111119000000029
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000029
+mme_createsession: create session response received sgw: 1111119000000038
+172.16.1.41
+mme_createsession: attach accept sent to ue: 112: 1111119000000038
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000027
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000029
+mme_handlemodifybearer: eps session setup success: 1111119000000029
+mme_handleattachcomplete: attach completed: 1111119000000027
+mmeserver_handleue: Connection closed
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000027
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000027
+mme_handlemodifybearer: eps session setup success: 1111119000000027
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000021
+mme_handleattachcomplete: attach completed: 1111119000000021
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000021
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000021
+mme_handlemodifybearer: eps session setup success: 1111119000000021
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000039
+mme_handleattachcomplete: attach completed: 1111119000000039
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000039
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000039
+mme_handlemodifybearer: eps session setup success: 1111119000000039
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000034
+mme_handleattachcomplete: attach completed: 1111119000000034
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000034
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000034
+mme_handlemodifybearer: eps session setup success: 1111119000000034
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: initial attach req received: 1111119000000048
+GUUUUUUUUUUUUUTI: 1111119000000048 ejejej 24
+mme_handleinitialattach::ue entry added: 1111119000000048
+mme_handleinitialattach: request sent to hss: 1111119000000048
+mme_handleinitialattach: autn:150 rand:50 xres:149 k_asme:365 1111119000000048
+mme_handleinitialattach: autn request sent to ran: 1111119000000048
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000002
+mme_handleattachcomplete: attach completed: 1111119000000002
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000002
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000002
+mme_handlemodifybearer: eps session setup success: 1111119000000002
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000016
+mme_handleattachcomplete: attach completed: 1111119000000016
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000016
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000016
+mme_handlemodifybearer: eps session setup success: 1111119000000016
+mmeserver_handleue: Connection closed
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000019
+mme_handleattachcomplete: attach completed: 1111119000000019
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000019
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000019
+mme_handlemodifybearer: eps session setup success: 1111119000000019
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000000
+mme_handledetach: detach request sent to sgw: 1111119000000000
+mme_handledetach: detach response received from sgw: 1111119000000000
+mme_handledetach: detach complete sent to ue: 48: 1111119000000000
+mme_handledetach: ue entry removed: 1111119000000000
+mme_handledetach: detach successful: 1111119000000000
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000007
+mme_handledetach: detach request sent to sgw: 1111119000000007
+mme_handledetach: detach response received from sgw: 1111119000000007
+mme_handledetach: detach complete sent to ue: 48: 1111119000000007
+mme_handledetach: ue entry removed: 1111119000000007
+mme_handledetach: detach successful: 1111119000000007
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000009
+mme_handledetach: detach request sent to sgw: 1111119000000009
+mme_handledetach: detach response received from sgw: 1111119000000009
+mme_handledetach: detach complete sent to ue: 48: 1111119000000009
+mme_handledetach: ue entry removed: 1111119000000009
+mme_handledetach: detach successful: 1111119000000009
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000037
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000037
+mme_createsession: create session request sent to sgw: 1111119000000037
+mme_createsession: create session response received sgw: 1111119000000037
+172.16.1.40
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000004
+mme_createsession: attach accept sent to ue: 112: 1111119000000037
+mme_handledetach: detach request sent to sgw: 1111119000000004
+mmeserver_handleue: Connection closed
+mme_handledetach: detach response received from sgw: 1111119000000004
+mme_handledetach: detach complete sent to ue: 48: 1111119000000004
+mme_handledetach: ue entry removed: 1111119000000004
+mme_handledetach: detach successful: 1111119000000004
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000048
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000048
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000013
+mme_handledetach: detach request sent to sgw: 1111119000000013
+mmeserver_handleue: case 1: initial attach
+mme_handledetach: detach response received from sgw: 1111119000000013
+mme_handledetach: detach complete sent to ue: 48: 1111119000000013
+mme_handledetach: ue entry removed: 1111119000000013
+mme_handledetach: detach successful: 1111119000000013
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000030
+mme_handledetach: detach request sent to sgw: 1111119000000030
+mme_handledetach: detach response received from sgw: 1111119000000030
+mme_handledetach: detach complete sent to ue: 48: 1111119000000030
+mme_handledetach: ue entry removed: 1111119000000030
+mme_handledetach: detach successful: 1111119000000030
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000023
+mme_handledetach: detach request sent to sgw: 1111119000000023
+mme_handledetach: detach response received from sgw: 1111119000000023
+mme_handledetach: detach complete sent to ue: 48: 1111119000000023
+mme_handledetach: ue entry removed: 1111119000000023
+mme_handledetach: detach successful: 1111119000000023
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000017
+mme_handledetach: detach request sent to sgw: 1111119000000017
+mme_handledetach: detach response received from sgw: 1111119000000017
+mme_handledetach: detach complete sent to ue: 48: 1111119000000017
+mme_handledetach: ue entry removed: 1111119000000017
+mme_handledetach: detach successful: 1111119000000017
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000022
+mme_handledetach: detach request sent to sgw: 1111119000000022
+mme_handledetach: detach response received from sgw: 1111119000000022
+mme_handledetach: detach complete sent to ue: 48: 1111119000000022
+mme_handledetach: ue entry removed: 1111119000000022
+mme_handledetach: detach successful: 1111119000000022
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000002
+mme_handledetach: detach request sent to sgw: 1111119000000002
+mme_handledetach: detach response received from sgw: 1111119000000002
+mme_handledetach: detach complete sent to ue: 48: 1111119000000002
+mme_handledetach: ue entry removed: 1111119000000002
+mme_handledetach: detach successful: 1111119000000002
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000006
+mme_handledetach: detach request sent to sgw: 1111119000000006
+mme_handledetach: detach response received from sgw: 1111119000000006
+mme_handledetach: detach complete sent to ue: 48: 1111119000000006
+mme_handledetach: ue entry removed: 1111119000000006
+mme_handledetach: detach successful: 1111119000000006
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000010
+mme_handledetach: detach request sent to sgw: 1111119000000010
+mme_handledetach: detach response received from sgw: 1111119000000010
+mme_handledetach: detach complete sent to ue: 48: 1111119000000010
+mme_handledetach: ue entry removed: 1111119000000010
+mme_handledetach: detach successful: 1111119000000010
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000028
+mme_handledetach: detach request sent to sgw: 1111119000000028
+mme_handledetach: detach response received from sgw: 1111119000000028
+mme_handledetach: detach complete sent to ue: 48: 1111119000000028
+mme_handledetach: ue entry removed: 1111119000000028
+mme_handledetach: detach successful: 1111119000000028
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: initial attach req received: 1111119000000063
+GUUUUUUUUUUUUUTI: 1111119000000063 ejejej 25
+mme_handleinitialattach::ue entry added: 1111119000000063
+mme_handleinitialattach: request sent to hss: 1111119000000063
+mme_handleinitialattach: autn:195 rand:65 xres:194 k_asme:470 1111119000000063
+mme_handleinitialattach: autn request sent to ran: 1111119000000063
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000016
+mme_handledetach: detach request sent to sgw: 1111119000000016
+mme_handledetach: detach response received from sgw: 1111119000000016
+mme_handledetach: detach complete sent to ue: 48: 1111119000000016
+mme_handledetach: ue entry removed: 1111119000000016
+mme_handledetach: detach successful: 1111119000000016
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000029
+mme_handledetach: detach request sent to sgw: 1111119000000029
+mme_handledetach: detach response received from sgw: 1111119000000029
+mme_handledetach: detach complete sent to ue: 48: 1111119000000029
+mme_handledetach: ue entry removed: 1111119000000029
+mme_handledetach: detach successful: 1111119000000029
+mmeserver_handleue: Connection closed
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000038
+mme_handleattachcomplete: attach completed: 1111119000000038
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000038
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000038
+mme_handlemodifybearer: eps session setup success: 1111119000000038
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000027
+mme_handledetach: detach request sent to sgw: 1111119000000027
+mmeserver_handleue: Connection closed
+mme_handledetach: detach response received from sgw: 1111119000000027
+mme_handledetach: detach complete sent to ue: 48: 1111119000000027
+mme_handledetach: ue entry removed: 1111119000000027
+mme_handledetach: detach successful: 1111119000000027
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000019
+mme_handledetach: detach request sent to sgw: 1111119000000019
+mme_handledetach: detach response received from sgw: 1111119000000019
+mme_handledetach: detach complete sent to ue: 48: 1111119000000019
+mme_handledetach: ue entry removed: 1111119000000019
+mme_handledetach: detach successful: 1111119000000019
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000021
+mme_handledetach: detach request sent to sgw: 1111119000000021
+mme_handledetach: detach response received from sgw: 1111119000000021
+mme_handledetach: detach complete sent to ue: 48: 1111119000000021
+mme_handledetach: ue entry removed: 1111119000000021
+mme_handledetach: detach successful: 1111119000000021
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000039
+mme_handledetach: detach request sent to sgw: 1111119000000039
+mme_handledetach: detach response received from sgw: 1111119000000039
+mme_handledetach: detach complete sent to ue: 48: 1111119000000039
+mme_handledetach: ue entry removed: 1111119000000039
+mme_handledetach: detach successful: 1111119000000039
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000034
+mme_handledetach: detach request sent to sgw: 1111119000000034
+mme_handledetach: detach response received from sgw: 1111119000000034
+mme_handledetach: detach complete sent to ue: 48: 1111119000000034
+mme_handledetach: ue entry removed: 1111119000000034
+mme_handledetach: detach successful: 1111119000000034
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000037
+mme_handleattachcomplete: attach completed: 1111119000000037
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000037
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000037
+mme_handlemodifybearer: eps session setup success: 1111119000000037
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000048
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000048
+mme_createsession: create session request sent to sgw: 1111119000000048
+mme_createsession: create session response received sgw: 1111119000000048
+172.16.1.51
+mme_createsession: attach accept sent to ue: 112: 1111119000000048
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000063
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000063
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000064
+GUUUUUUUUUUUUUTI: 1111119000000064 ejejej 26
+mme_handleinitialattach::ue entry added: 1111119000000064
+mme_handleinitialattach: request sent to hss: 1111119000000064
+mme_handleinitialattach: autn:198 rand:66 xres:197 k_asme:477 1111119000000064
+mme_handleinitialattach: autn request sent to ran: 1111119000000064
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000038
+mme_handledetach: detach request sent to sgw: 1111119000000038
+mme_handledetach: detach response received from sgw: 1111119000000038
+mme_handledetach: detach complete sent to ue: 48: 1111119000000038
+mme_handledetach: ue entry removed: 1111119000000038
+mme_handledetach: detach successful: 1111119000000038
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000037
+mme_handledetach: detach request sent to sgw: 1111119000000037
+mme_handledetach: detach response received from sgw: 1111119000000037
+mme_handledetach: detach complete sent to ue: 48: 1111119000000037
+mme_handledetach: ue entry removed: 1111119000000037
+mme_handledetach: detach successful: 1111119000000037
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000048
+mme_handleattachcomplete: attach completed: 1111119000000048
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000048
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000048
+mme_handlemodifybearer: eps session setup success: 1111119000000048
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000063
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000063
+mme_createsession: create session request sent to sgw: 1111119000000063
+mme_createsession: create session response received sgw: 1111119000000063
+172.16.1.66
+mme_createsession: attach accept sent to ue: 112: 1111119000000063
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000064
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000064
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000074
+GUUUUUUUUUUUUUTI: 1111119000000074 ejejej 27
+mme_handleinitialattach::ue entry added: 1111119000000074
+mme_handleinitialattach: request sent to hss: 1111119000000074
+mme_handleinitialattach: autn:228 rand:76 xres:227 k_asme:547 1111119000000074
+mme_handleinitialattach: autn request sent to ran: 1111119000000074
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000048
+mme_handledetach: detach request sent to sgw: 1111119000000048
+mme_handledetach: detach response received from sgw: 1111119000000048
+mme_handledetach: detach complete sent to ue: 48: 1111119000000048
+mme_handledetach: ue entry removed: 1111119000000048
+mme_handledetach: detach successful: 1111119000000048
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000063
+mme_handleattachcomplete: attach completed: 1111119000000063
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000063
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000063
+mme_handlemodifybearer: eps session setup success: 1111119000000063
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000064
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000064
+mme_createsession: create session request sent to sgw: 1111119000000064
+mmeserver_handleue: case 1: initial attach
+mme_createsession: create session response received sgw: 1111119000000064
+172.16.1.67
+mme_createsession: attach accept sent to ue: 112: 1111119000000064
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000046
+GUUUUUUUUUUUUUTI: 1111119000000046 ejejej 28
+mme_handleinitialattach::ue entry added: 1111119000000046
+mme_handleinitialattach: request sent to hss: 1111119000000046
+mme_handleinitialattach: initial attach req received: 1111119000000073
+GUUUUUUUUUUUUUTI: 1111119000000073 ejejej 29
+mme_handleinitialattach::ue entry added: 1111119000000073
+mme_handleinitialattach: request sent to hss: 1111119000000073
+mme_handleinitialattach: autn:144 rand:48 xres:143 k_asme:351 1111119000000046
+mme_handleinitialattach: autn request sent to ran: 1111119000000046
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: autn:225 rand:75 xres:224 k_asme:540 1111119000000073
+mme_handleinitialattach: autn request sent to ran: 1111119000000073
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000063
+mme_handledetach: detach request sent to sgw: 1111119000000063
+mme_handledetach: detach response received from sgw: 1111119000000063
+mme_handledetach: detach complete sent to ue: 48: 1111119000000063
+mme_handledetach: ue entry removed: 1111119000000063
+mme_handledetach: detach successful: 1111119000000063
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000064
+mme_handleattachcomplete: attach completed: 1111119000000064
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000046
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000064
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000046
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000064
+mme_handlemodifybearer: eps session setup success: 1111119000000064
+mmeserver_handleue: Connection closed
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000074
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000074
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000091
+GUUUUUUUUUUUUUTI: 1111119000000091 ejejej 30
+mme_handleinitialattach::ue entry added: 1111119000000091
+mme_handleinitialattach: request sent to hss: 1111119000000091
+mme_handleinitialattach: initial attach req received: 1111119000000079
+GUUUUUUUUUUUUUTI: 1111119000000079 ejejej 31
+mme_handleinitialattach::ue entry added: 1111119000000079
+mme_handleinitialattach: request sent to hss: 1111119000000079
+mme_handleinitialattach: autn:279 rand:93 xres:278 k_asme:666 1111119000000091
+mme_handleinitialattach: autn request sent to ran: 1111119000000091
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: autn:243 rand:81 xres:242 k_asme:582 1111119000000079
+mme_handleinitialattach: autn request sent to ran: 1111119000000079
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000064
+mme_handledetach: detach request sent to sgw: 1111119000000064
+mme_handledetach: detach response received from sgw: 1111119000000064
+mme_handledetach: detach complete sent to ue: 48: 1111119000000064
+mme_handledetach: ue entry removed: 1111119000000064
+mme_handledetach: detach successful: 1111119000000064
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000074
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000074
+mme_createsession: create session request sent to sgw: 1111119000000074
+mme_createsession: create session response received sgw: 1111119000000074
+172.16.1.77
+mme_createsession: attach accept sent to ue: 112: 1111119000000074
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000073
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000073
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000046
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000046
+mme_createsession: create session request sent to sgw: 1111119000000046
+mme_createsession: create session response received sgw: 1111119000000046
+172.16.1.49
+mme_createsession: attach accept sent to ue: 112: 1111119000000046
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000083
+GUUUUUUUUUUUUUTI: 1111119000000083 ejejej 32
+mme_handleinitialattach::ue entry added: 1111119000000083
+mme_handleinitialattach: request sent to hss: 1111119000000083
+mme_handleinitialattach: autn:255 rand:85 xres:254 k_asme:610 1111119000000083
+mme_handleinitialattach: autn request sent to ran: 1111119000000083
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000074
+mme_handleattachcomplete: attach completed: 1111119000000074
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000074
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000074
+mme_handlemodifybearer: eps session setup success: 1111119000000074
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000073
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000073
+mme_createsession: create session request sent to sgw: 1111119000000073
+mme_createsession: create session response received sgw: 1111119000000073
+172.16.1.76
+mme_createsession: attach accept sent to ue: 112: 1111119000000073
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000079
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000079
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000062
+GUUUUUUUUUUUUUTI: 1111119000000062 ejejej 33
+mme_handleinitialattach::ue entry added: 1111119000000062
+mme_handleinitialattach: request sent to hss: 1111119000000062
+mme_handleinitialattach: autn:192 rand:64 xres:191 k_asme:463 1111119000000062
+mme_handleinitialattach: autn request sent to ran: 1111119000000062
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000046
+mme_handleattachcomplete: attach completed: 1111119000000046
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000046
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000046
+mme_handlemodifybearer: eps session setup success: 1111119000000046
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000091
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000091
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000086
+GUUUUUUUUUUUUUTI: 1111119000000086 ejejej 34
+mme_handleinitialattach::ue entry added: 1111119000000086
+mme_handleinitialattach: request sent to hss: 1111119000000086
+mme_handleinitialattach: autn:264 rand:88 xres:263 k_asme:631 1111119000000086
+mme_handleinitialattach: autn request sent to ran: 1111119000000086
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000074
+mme_handledetach: detach request sent to sgw: 1111119000000074
+mme_handledetach: detach response received from sgw: 1111119000000074
+mme_handledetach: detach complete sent to ue: 48: 1111119000000074
+mme_handledetach: ue entry removed: 1111119000000074
+mme_handledetach: detach successful: 1111119000000074
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000073
+mme_handleattachcomplete: attach completed: 1111119000000073
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000073
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000073
+mme_handlemodifybearer: eps session setup success: 1111119000000073
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000079
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000079
+mme_createsession: create session request sent to sgw: 1111119000000079
+mme_createsession: create session response received sgw: 1111119000000079
+172.16.1.82
+mme_createsession: attach accept sent to ue: 112: 1111119000000079
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000083
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000083
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: initial attach req received: 1111119000000097
+GUUUUUUUUUUUUUTI: 1111119000000097 ejejej 35
+mme_handleinitialattach::ue entry added: 1111119000000097
+mme_handleinitialattach: request sent to hss: 1111119000000097
+mme_handleinitialattach: autn:297 rand:99 xres:296 k_asme:708 1111119000000097
+mme_handleinitialattach: autn request sent to ran: 1111119000000097
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000086
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000086
+mmeserver_handleue: Connection closed
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000046
+mme_handledetach: detach request sent to sgw: 1111119000000046
+mmeserver_handleue: case 1: initial attach
+mme_handledetach: detach response received from sgw: 1111119000000046
+mme_handledetach: detach complete sent to ue: 48: 1111119000000046
+mme_handledetach: ue entry removed: 1111119000000046
+mme_handledetach: detach successful: 1111119000000046
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000091
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000091
+mme_createsession: create session request sent to sgw: 1111119000000091
+mme_createsession: create session response received sgw: 1111119000000091
+172.16.1.94
+mme_createsession: attach accept sent to ue: 112: 1111119000000091
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000062
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000062
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000090
+GUUUUUUUUUUUUUTI: 1111119000000090 ejejej 36
+mme_handleinitialattach::ue entry added: 1111119000000090
+mme_handleinitialattach: request sent to hss: 1111119000000090
+mme_handleinitialattach: autn:276 rand:92 xres:275 k_asme:659 1111119000000090
+mme_handleinitialattach: autn request sent to ran: 1111119000000090
+mme_handleinitialattach: initial attach req received: 1111119000000045
+GUUUUUUUUUUUUUTI: 1111119000000045 ejejej 37
+mme_handleinitialattach::ue entry added: 1111119000000045
+mme_handleinitialattach: request sent to hss: 1111119000000045
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000073
+mme_handledetach: detach request sent to sgw: 1111119000000073
+mme_handledetach: detach response received from sgw: 1111119000000073
+mme_handleinitialattach: autn:141 rand:47 xres:140 k_asme:344 1111119000000045
+mme_handleinitialattach: autn request sent to ran: 1111119000000045
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000091
+mme_handleattachcomplete: attach completed: 1111119000000091
+mme_handledetach: detach complete sent to ue: 48: 1111119000000073
+mme_handledetach: ue entry removed: 1111119000000073
+mme_handledetach: detach successful: 1111119000000073
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000091
+mmeserver_handleue: Connection closed
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000091
+mme_handlemodifybearer: eps session setup success: 1111119000000091
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000079
+mme_handleattachcomplete: attach completed: 1111119000000079
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000079
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000079
+mme_handlemodifybearer: eps session setup success: 1111119000000079
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000062
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000062
+mme_createsession: create session request sent to sgw: 1111119000000062
+mmeserver_handleue: Connection closed
+mme_createsession: create session response received sgw: 1111119000000062
+172.16.1.65
+mme_createsession: attach accept sent to ue: 112: 1111119000000062
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000083
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000083
+mme_createsession: create session request sent to sgw: 1111119000000083
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000097
+mme_createsession: create session response received sgw: 1111119000000083
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000097
+172.16.1.86
+mme_createsession: attach accept sent to ue: 112: 1111119000000083
+mmeserver_handleue: Connection closed
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000086
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000086
+mme_createsession: create session request sent to sgw: 1111119000000086
+mme_createsession: create session response received sgw: 1111119000000086
+172.16.1.89
+mme_createsession: attach accept sent to ue: 112: 1111119000000086
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000090
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000090
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000072
+GUUUUUUUUUUUUUTI: 1111119000000072 ejejej 38
+mme_handleinitialattach::ue entry added: 1111119000000072
+mme_handleinitialattach: request sent to hss: 1111119000000072
+mme_handleinitialattach: initial attach req received: 1111119000000049
+GUUUUUUUUUUUUUTI: 1111119000000049 ejejej 39
+mme_handleinitialattach::ue entry added: 1111119000000049
+mme_handleinitialattach: request sent to hss: 1111119000000049
+mme_handleinitialattach: autn:222 rand:74 xres:221 k_asme:533 1111119000000072
+mme_handleinitialattach: autn request sent to ran: 1111119000000072
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000091
+mme_handledetach: detach request sent to sgw: 1111119000000091
+mme_handledetach: detach response received from sgw: 1111119000000091
+mme_handledetach: detach complete sent to ue: 48: 1111119000000091
+mme_handledetach: ue entry removed: 1111119000000091
+mme_handledetach: detach successful: 1111119000000091
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000062
+mme_handleattachcomplete: attach completed: 1111119000000062
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000062
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000062
+mme_handlemodifybearer: eps session setup success: 1111119000000062
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000097
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000097
+mme_createsession: create session request sent to sgw: 1111119000000097
+mme_createsession: create session response received sgw: 1111119000000097
+172.16.1.100
+mme_createsession: attach accept sent to ue: 112: 1111119000000097
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000045
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000045
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: autn:153 rand:51 xres:152 k_asme:372 1111119000000049
+mme_handleinitialattach: autn request sent to ran: 1111119000000049
+mmeserver_handleue: case 1: initial attach
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000079
+mme_handledetach: detach request sent to sgw: 1111119000000079
+mme_handledetach: detach response received from sgw: 1111119000000079
+mme_handledetach: detach complete sent to ue: 48: 1111119000000079
+mme_handledetach: ue entry removed: 1111119000000079
+mme_handledetach: detach successful: 1111119000000079
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000083
+mme_handleattachcomplete: attach completed: 1111119000000083
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000083
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000083
+mme_handlemodifybearer: eps session setup success: 1111119000000083
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000086
+mme_handleattachcomplete: attach completed: 1111119000000086
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000086
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000086
+mme_handlemodifybearer: eps session setup success: 1111119000000086
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000090
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000090
+mme_createsession: create session request sent to sgw: 1111119000000090
+mme_createsession: create session response received sgw: 1111119000000090
+172.16.1.93
+mme_createsession: attach accept sent to ue: 112: 1111119000000090
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: initial attach req received: 1111119000000081
+GUUUUUUUUUUUUUTI: 1111119000000081 ejejej 40
+mme_handleinitialattach::ue entry added: 1111119000000081
+mme_handleinitialattach: request sent to hss: 1111119000000081
+mme_handleinitialattach: autn:249 rand:83 xres:248 k_asme:596 1111119000000081
+mme_handleinitialattach: autn request sent to ran: 1111119000000081
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000062
+mme_handledetach: detach request sent to sgw: 1111119000000062
+mme_handledetach: detach response received from sgw: 1111119000000062
+mme_handledetach: detach complete sent to ue: 48: 1111119000000062
+mme_handledetach: ue entry removed: 1111119000000062
+mme_handledetach: detach successful: 1111119000000062
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000097
+mme_handleattachcomplete: attach completed: 1111119000000097
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000097
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000097
+mme_handlemodifybearer: eps session setup success: 1111119000000097
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000045
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000045
+mme_createsession: create session request sent to sgw: 1111119000000045
+mme_createsession: create session response received sgw: 1111119000000045
+172.16.1.48
+mme_createsession: attach accept sent to ue: 112: 1111119000000045
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000072
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000072
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: initial attach req received: 1111119000000053
+GUUUUUUUUUUUUUTI: 1111119000000053 ejejej 41
+mme_handleinitialattach::ue entry added: 1111119000000053
+mme_handleinitialattach: request sent to hss: 1111119000000053
+mme_handleinitialattach: autn:165 rand:55 xres:164 k_asme:400 1111119000000053
+mme_handleinitialattach: autn request sent to ran: 1111119000000053
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000083
+mme_handledetach: detach request sent to sgw: 1111119000000083
+mme_handledetach: detach response received from sgw: 1111119000000083
+mme_handledetach: detach complete sent to ue: 48: 1111119000000083
+mme_handledetach: ue entry removed: 1111119000000083
+mme_handledetach: detach successful: 1111119000000083
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000086
+mme_handledetach: detach request sent to sgw: 1111119000000086
+mme_handledetach: detach response received from sgw: 1111119000000086
+mme_handledetach: detach complete sent to ue: 48: 1111119000000086
+mme_handledetach: ue entry removed: 1111119000000086
+mme_handledetach: detach successful: 1111119000000086
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000090
+mme_handleattachcomplete: attach completed: 1111119000000090
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000090
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000090
+mme_handlemodifybearer: eps session setup success: 1111119000000090
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000049
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000049
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: initial attach req received: 1111119000000084
+GUUUUUUUUUUUUUTI: 1111119000000084 ejejej 42
+mme_handleinitialattach::ue entry added: 1111119000000084
+mme_handleinitialattach: request sent to hss: 1111119000000084
+mme_handleinitialattach: autn:258 rand:86 xres:257 k_asme:617 1111119000000084
+mme_handleinitialattach: autn request sent to ran: 1111119000000084
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000053
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000053
+mmeserver_handleue: Connection closed
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000097
+mme_handledetach: detach request sent to sgw: 1111119000000097
+mmeserver_handleue: case 1: initial attach
+mme_handledetach: detach response received from sgw: 1111119000000097
+mme_handledetach: detach complete sent to ue: 48: 1111119000000097
+mme_handledetach: ue entry removed: 1111119000000097
+mme_handledetach: detach successful: 1111119000000097
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000045
+mme_handleattachcomplete: attach completed: 1111119000000045
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000045
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000045
+mme_handlemodifybearer: eps session setup success: 1111119000000045
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000072
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000072
+mme_createsession: create session request sent to sgw: 1111119000000072
+mme_createsession: create session response received sgw: 1111119000000072
+172.16.1.75
+mme_createsession: attach accept sent to ue: 112: 1111119000000072
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000081
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000081
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000057
+GUUUUUUUUUUUUUTI: 1111119000000057 ejejej 43
+mme_handleinitialattach::ue entry added: 1111119000000057
+mme_handleinitialattach: request sent to hss: 1111119000000057
+mme_handleinitialattach: autn:177 rand:59 xres:176 k_asme:428 1111119000000057
+mme_handleinitialattach: autn request sent to ran: 1111119000000057
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000090
+mme_handledetach: detach request sent to sgw: 1111119000000090
+mme_handledetach: detach response received from sgw: 1111119000000090
+mme_handledetach: detach complete sent to ue: 48: 1111119000000090
+mme_handledetach: ue entry removed: 1111119000000090
+mme_handledetach: detach successful: 1111119000000090
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: initial attach req received: 1111119000000088
+GUUUUUUUUUUUUUTI: 1111119000000088 ejejej 44
+mme_handleinitialattach::ue entry added: 1111119000000088
+mme_handleinitialattach: request sent to hss: 1111119000000088
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000049
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000049
+mme_createsession: create session request sent to sgw: 1111119000000049
+mme_createsession: create session response received sgw: 1111119000000049mme_handleinitialattach: autn:270 rand:90 xres:269 k_asme:645 1111119000000088
+mme_handleinitialattach: autn request sent to ran: 1111119000000088
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000045
+mme_handledetach: detach request sent to sgw: 1111119000000045
+
+172.16.1.52
+mme_createsession: attach accept sent to ue: 112: 1111119000000049
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000053
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000053
+mme_createsession: create session request sent to sgw: 1111119000000053
+mme_handledetach: detach response received from sgw: 1111119000000045
+mme_handledetach: detach complete sent to ue: 48: 1111119000000045
+mme_handledetach: ue entry removed: 1111119000000045
+mme_handledetach: detach successful: 1111119000000045
+mme_createsession: create session response received sgw: 1111119000000053
+172.16.1.56
+mme_createsession: attach accept sent to ue: 112: 1111119000000053
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000072
+mme_handleattachcomplete: attach completed: 1111119000000072
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000072
+mmeserver_handleue: Connection closed
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000072
+mme_handlemodifybearer: eps session setup success: 1111119000000072
+mmeserver_handleue: Connection closed
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000057
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000057
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000081
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000081
+mme_createsession: create session request sent to sgw: 1111119000000081
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_createsession: create session response received sgw: 1111119000000081
+172.16.1.84
+mme_createsession: attach accept sent to ue: 112: 1111119000000081
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000084
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000084
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000088
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000088
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000067
+GUUUUUUUUUUUUUTI: 1111119000000067 ejejej 45
+mme_handleinitialattach::ue entry added: 1111119000000067
+mme_handleinitialattach: request sent to hss: 1111119000000067
+mme_handleinitialattach: autn:207 rand:69 xres:206 k_asme:498 1111119000000067
+mme_handleinitialattach: autn request sent to ran: 1111119000000067
+mme_handleinitialattach: initial attach req received: 1111119000000076
+GUUUUUUUUUUUUUTI: 1111119000000076 ejejej 46
+mme_handleinitialattach::ue entry added: 1111119000000076
+mme_handleinitialattach: request sent to hss: 1111119000000076
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: autn:234 rand:78 xres:233 k_asme:561 1111119000000076
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000049
+mme_handleinitialattach: autn request sent to ran: 1111119000000076
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000057
+mme_handleattachcomplete: attach completed: 1111119000000049
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000057
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000049
+mmeserver_handleue: Connection closed
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000049
+mme_handlemodifybearer: eps session setup success: 1111119000000049
+mmeserver_handleue: Connection closed
+mme_createsession: create session request sent to sgw: 1111119000000057
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000053
+mme_handleattachcomplete: attach completed: 1111119000000053
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000053
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000053
+mme_handlemodifybearer: eps session setup success: 1111119000000053
+mmeserver_handleue: Connection closed
+mme_createsession: create session response received sgw: 1111119000000057
+172.16.1.60
+mme_createsession: attach accept sent to ue: 112: 1111119000000057
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000072
+mme_handledetach: detach request sent to sgw: 1111119000000072
+mmeserver_handleue: Connection closed
+mme_handledetach: detach response received from sgw: 1111119000000072
+mme_handledetach: detach complete sent to ue: 48: 1111119000000072
+mme_handledetach: ue entry removed: 1111119000000072
+mme_handledetach: detach successful: 1111119000000072
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000081
+mme_handleattachcomplete: attach completed: 1111119000000081
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000081
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000081
+mme_handlemodifybearer: eps session setup success: 1111119000000081
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000084
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000084
+mme_createsession: create session request sent to sgw: 1111119000000084
+mme_createsession: create session response received sgw: 1111119000000084
+172.16.1.87
+mme_createsession: attach accept sent to ue: 112: 1111119000000084
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000088
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000088
+mme_createsession: create session request sent to sgw: 1111119000000088
+mme_createsession: create session response received sgw: 1111119000000088
+172.16.1.91
+mme_createsession: attach accept sent to ue: 112: 1111119000000088
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000099
+GUUUUUUUUUUUUUTI: 1111119000000099 ejejej 47
+mme_handleinitialattach::ue entry added: 1111119000000099
+mme_handleinitialattach: request sent to hss: 1111119000000099
+mme_handleinitialattach: autn:303 rand:101 xres:302 k_asme:722 1111119000000099
+mme_handleinitialattach: initial attach req received: 1111119000000051
+mme_handleinitialattach: autn request sent to ran: 1111119000000099
+GUUUUUUUUUUUUUTI: 1111119000000051 ejejej 48
+mme_handleinitialattach::ue entry added: 1111119000000051
+mme_handleinitialattach: request sent to hss: 1111119000000051
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000049
+mme_handledetach: detach request sent to sgw: 1111119000000049
+mme_handledetach: detach response received from sgw: 1111119000000049
+mme_handledetach: detach complete sent to ue: 48: 1111119000000049
+mme_handledetach: ue entry removed: 1111119000000049
+mme_handledetach: detach successful: 1111119000000049
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000053
+mme_handledetach: detach request sent to sgw: 1111119000000053
+mme_handledetach: detach response received from sgw: 1111119000000053
+mme_handleinitialattach: autn:159 rand:53 xres:158 k_asme:386 1111119000000051
+mme_handledetach: detach complete sent to ue: 48: 1111119000000053
+mme_handledetach: ue entry removed: 1111119000000053
+mme_handledetach: detach successful: 1111119000000053
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: autn request sent to ran: 1111119000000051
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000057
+mme_handleattachcomplete: attach completed: 1111119000000057
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000057
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000057
+mme_handlemodifybearer: eps session setup success: 1111119000000057
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000081
+mme_handledetach: detach request sent to sgw: 1111119000000081
+mme_handledetach: detach response received from sgw: 1111119000000081
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000067
+mme_handledetach: detach complete sent to ue: 48: 1111119000000081
+mme_handledetach: ue entry removed: 1111119000000081
+mme_handledetach: detach successful: 1111119000000081
+mmeserver_handleue: Connection closed
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000067
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000084
+mme_handleattachcomplete: attach completed: 1111119000000084
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000084
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000084
+mme_handlemodifybearer: eps session setup success: 1111119000000084
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000099
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000088
+mme_handleattachcomplete: attach completed: 1111119000000088
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000099
+mmeserver_handleue: Connection closed
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000088
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000088
+mme_handlemodifybearer: eps session setup success: 1111119000000088
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000076
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000076
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000057
+mme_handledetach: detach request sent to sgw: 1111119000000057
+mmeserver_handleue: case 1: initial attach
+mme_handledetach: detach response received from sgw: 1111119000000057
+mme_handledetach: detach complete sent to ue: 48: 1111119000000057
+mme_handledetach: ue entry removed: 1111119000000057
+mme_handledetach: detach successful: 1111119000000057
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000067
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000067
+mme_createsession: create session request sent to sgw: 1111119000000067
+mme_createsession: create session response received sgw: 1111119000000067
+172.16.1.70
+mme_createsession: attach accept sent to ue: 112: 1111119000000067
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000067
+mme_handleattachcomplete: attach completed: 1111119000000067
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000067
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000067
+mme_handlemodifybearer: eps session setup success: 1111119000000067
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000099
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000099
+mme_createsession: create session request sent to sgw: 1111119000000099
+mme_createsession: create session response received sgw: 1111119000000099
+172.16.1.102
+mme_createsession: attach accept sent to ue: 112: 1111119000000099
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000099
+mme_handleattachcomplete: attach completed: 1111119000000099
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000099
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000099
+mme_handlemodifybearer: eps session setup success: 1111119000000099
+mmeserver_handleue: Connection closed
+mme_handleinitialattach: initial attach req received: 1111119000000055
+GUUUUUUUUUUUUUTI: 1111119000000055 ejejej 49
+mme_handleinitialattach::ue entry added: 1111119000000055
+mme_handleinitialattach: request sent to hss: 1111119000000055
+mme_handleinitialattach: autn:171 rand:57 xres:170 k_asme:414 1111119000000055
+mme_handleinitialattach: autn request sent to ran: 1111119000000055
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000067
+mme_handledetach: detach request sent to sgw: 1111119000000067
+mme_handledetach: detach response received from sgw: 1111119000000067
+mme_handledetach: detach complete sent to ue: 48: 1111119000000067
+mme_handledetach: ue entry removed: 1111119000000067
+mme_handledetach: detach successful: 1111119000000067
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000084
+mme_handledetach: detach request sent to sgw: 1111119000000084
+mmeserver_handleue: Connection closed
+mme_handledetach: detach response received from sgw: 1111119000000084
+mme_handledetach: detach complete sent to ue: 48: 1111119000000084
+mme_handledetach: ue entry removed: 1111119000000084
+mme_handledetach: detach successful: 1111119000000084
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000099
+mme_handledetach: detach request sent to sgw: 1111119000000099
+mme_handledetach: detach response received from sgw: 1111119000000099
+mme_handledetach: detach complete sent to ue: 48: 1111119000000099
+mme_handledetach: ue entry removed: 1111119000000099
+mme_handledetach: detach successful: 1111119000000099
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000088
+mme_handledetach: detach request sent to sgw: 1111119000000088
+mme_handledetach: detach response received from sgw: 1111119000000088
+mme_handledetach: detach complete sent to ue: 48: 1111119000000088
+mme_handledetach: ue entry removed: 1111119000000088
+mme_handledetach: detach successful: 1111119000000088
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000076
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000076
+mme_createsession: create session request sent to sgw: 1111119000000076
+mme_createsession: create session response received sgw: 1111119000000076
+172.16.1.79
+mme_createsession: attach accept sent to ue: 112: 1111119000000076
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000051
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000051
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000059
+GUUUUUUUUUUUUUTI: 1111119000000059 ejejej 50
+mme_handleinitialattach::ue entry added: 1111119000000059
+mme_handleinitialattach: request sent to hss: 1111119000000059
+mme_handleinitialattach: autn:183 rand:61 xres:182 k_asme:442 1111119000000059
+mme_handleinitialattach: autn request sent to ran: 1111119000000059
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000076
+mme_handleattachcomplete: attach completed: 1111119000000076
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000076
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000076
+mme_handlemodifybearer: eps session setup success: 1111119000000076
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000051
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000051
+mme_createsession: create session request sent to sgw: 1111119000000051
+mme_createsession: create session response received sgw: 1111119000000051
+172.16.1.54
+mme_createsession: attach accept sent to ue: 112: 1111119000000051
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000055
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000055
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 1: initial attach
+mme_handleinitialattach: initial attach req received: 1111119000000069
+GUUUUUUUUUUUUUTI: 1111119000000069 ejejej 51
+mme_handleinitialattach::ue entry added: 1111119000000069
+mme_handleinitialattach: request sent to hss: 1111119000000069
+mme_handleinitialattach: autn:213 rand:71 xres:212 k_asme:512 1111119000000069
+mme_handleinitialattach: autn request sent to ran: 1111119000000069
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000076
+mme_handledetach: detach request sent to sgw: 1111119000000076
+mme_handledetach: detach response received from sgw: 1111119000000076
+mme_handledetach: detach complete sent to ue: 48: 1111119000000076
+mme_handledetach: ue entry removed: 1111119000000076
+mme_handledetach: detach successful: 1111119000000076
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000051
+mme_handleattachcomplete: attach completed: 1111119000000051
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000051
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000051
+mme_handlemodifybearer: eps session setup success: 1111119000000051
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000055
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000055
+mme_createsession: create session request sent to sgw: 1111119000000055
+mme_createsession: create session response received sgw: 1111119000000055
+172.16.1.58
+mme_createsession: attach accept sent to ue: 112: 1111119000000055
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000059
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000059
+mmeserver_handleue: case 5: detach request
+mmeserver_handleue: Connection closed
+mme_handledetach: detach req received: 64: 1111119000000051
+mme_handledetach: detach request sent to sgw: 1111119000000051
+mme_handledetach: detach response received from sgw: 1111119000000051
+mme_handledetach: detach complete sent to ue: 48: 1111119000000051
+mme_handledetach: ue entry removed: 1111119000000051
+mme_handledetach: detach successful: 1111119000000051
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000055
+mme_handleattachcomplete: attach completed: 1111119000000055
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000055
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000055
+mme_handlemodifybearer: eps session setup success: 1111119000000055
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 2: authentication response
+mme_handleautn: Authentication successful: 1111119000000069
+mme_handlesecuritymodecmd: security mode command sent: 58: 1111119000000069
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000055
+mme_handledetach: detach request sent to sgw: 1111119000000055
+mme_handledetach: detach response received from sgw: 1111119000000055
+mme_handledetach: detach complete sent to ue: 48: 1111119000000055
+mme_handledetach: ue entry removed: 1111119000000055
+mme_handledetach: detach successful: 1111119000000055
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000059
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000059
+mme_createsession: create session request sent to sgw: 1111119000000059
+mme_createsession: create session response received sgw: 1111119000000059
+172.16.1.62
+mme_createsession: attach accept sent to ue: 112: 1111119000000059
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 3: security mode complete
+mme_handlesecuritymodecomplete: security mode complete received: 48: 1111119000000069
+mme_handlesecuritymodecomplete: security mode complete success: 1111119000000069
+mme_createsession: create session request sent to sgw: 1111119000000069
+mme_createsession: create session response received sgw: 1111119000000069
+172.16.1.72
+mme_createsession: attach accept sent to ue: 112: 1111119000000069
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000059
+mme_handleattachcomplete: attach completed: 1111119000000059
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000059
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000059
+mme_handlemodifybearer: eps session setup success: 1111119000000059
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 4: attach complete
+mme_handleattachcomplete: attach complete received: 48: 1111119000000069
+mme_handleattachcomplete: attach completed: 1111119000000069
+mme_handlemodifybearer: modify bearer request sent to sgw: 1111119000000069
+mme_handlemodifybearer: modify bearer response received from sgw: 1111119000000069
+mme_handlemodifybearer: eps session setup success: 1111119000000069
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000059
+mme_handledetach: detach request sent to sgw: 1111119000000059
+mme_handledetach: detach response received from sgw: 1111119000000059
+mme_handledetach: detach complete sent to ue: 48: 1111119000000059
+mme_handledetach: ue entry removed: 1111119000000059
+mme_handledetach: detach successful: 1111119000000059
+mmeserver_handleue: Connection closed
+mmeserver_handleue: case 5: detach request
+mme_handledetach: detach req received: 64: 1111119000000069
+mme_handledetach: detach request sent to sgw: 1111119000000069
+mme_handledetach: detach response received from sgw: 1111119000000069
+mme_handledetach: detach complete sent to ue: 48: 1111119000000069
+mme_handledetach: ue entry removed: 1111119000000069
+mme_handledetach: detach successful: 1111119000000069
+mmeserver_handleue: Connection closed

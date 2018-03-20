@@ -1,13 +1,16 @@
 #include "mme.h"
+#include "discover.h"
 
 string g_trafmon_ip_addr = "10.129.26.175";
-string g_mme_ip_addr = MME;
+string g_mme_ip_addr = "0.0.0.0";
 
-string g_hss_ip_addr = "10.129.28.108";
-string g_sgw_s11_ip_addr = SGWLB;
-string g_sgw_s1_ip_addr = SGWLB;
-string g_sgw_s5_ip_addr = SGWLB;
-string g_pgw_s5_ip_addr = PGWLB;
+string g_hss_ip_addr = resolve_host("hss"); 
+string g_sgw_s11_ip_addr = resolve_host("sgw");
+string g_sgw_s1_ip_addr = resolve_host("sgw");
+string g_sgw_s5_ip_addr = resolve_host("sgw");
+string g_pgw_s5_ip_addr = resolve_host("pgw");
+
+const string dsmme_path = resolve_host("mme-ds") + ":8090"; 
 
 int g_trafmon_port = 4000;
 int g_mme_port = 5000;
@@ -18,6 +21,20 @@ int g_sgw_s5_port = 7200;
 int g_pgw_s5_port = 8000;
 
 uint64_t g_timer = 100;
+
+int dummt;
+
+void count(int n) {
+  for (int i = 0; i < n; i++) {
+    dummt++;
+  }
+
+  dummt = dummt % 102;
+}
+
+void load_func() {
+  count(1000000 * (1+ (rand() % 3)));
+}
 
 
 
@@ -129,6 +146,7 @@ uint32_t Mme::get_s11cteidmme(uint64_t guti) {
 
 void Mme::handle_initial_attach(int conn_fd, Packet pkt, SctpClient &hss_client, int worker_id) {
 
+  load_func();
 	uint64_t imsi;
 	uint64_t tai;
 	uint64_t ksi_asme;
@@ -206,6 +224,7 @@ void Mme::handle_initial_attach(int conn_fd, Packet pkt, SctpClient &hss_client,
 
 	TRACE(cout << "mme_handleinitialattach:" << " autn request sent to ran: " << guti << endl;	)
 }
+
 UeContext Mme::get_context(uint64_t guti){
 	g_sync.mlock(uectx_mux);
 
@@ -289,6 +308,7 @@ bool Mme::handle_autn(int conn_fd, Packet pkt, int worker_id) {
 }
 
 void Mme::handle_security_mode_cmd(int conn_fd, Packet pkt, int worker_id) {
+  load_func();
 	uint64_t guti;
 	uint64_t ksi_asme;
 	uint16_t nw_capability;
@@ -348,6 +368,7 @@ void Mme::set_integrity_context(UeContext &local_ue_ctx) {
 }
 
 bool Mme::handle_security_mode_complete(int conn_fd, Packet pkt, int worker_id) {
+  load_func();
 	uint64_t guti;
 	uint64_t k_nas_enc;
 	uint64_t k_nas_int;
@@ -393,6 +414,7 @@ bool Mme::handle_security_mode_complete(int conn_fd, Packet pkt, int worker_id) 
 }
 
 void Mme::handle_location_update(Packet pkt, SctpClient &hss_client, int worker_id) {
+  load_func();
 	uint64_t guti;
 	uint64_t imsi;
 	uint64_t default_apn;
@@ -441,6 +463,7 @@ void Mme::handle_location_update(Packet pkt, SctpClient &hss_client, int worker_
 }
 
 void Mme::handle_create_session(int conn_fd, Packet pkt, UdpClient &sgw_client, int worker_id) {
+  load_func();
 	vector<uint64_t> tai_list;
 	uint64_t guti;
 	uint64_t imsi;
@@ -459,7 +482,7 @@ void Mme::handle_create_session(int conn_fd, Packet pkt, UdpClient &sgw_client, 
 	uint8_t eps_bearer_id;
 	uint8_t e_rab_id;
 	string pgw_s5_ip_addr;
-	string ue_ip_addr;
+	string ue_ip_addr = "172.16.1.3";
 	int tai_list_size;
 	int pgw_s5_port;
 	bool res;
@@ -488,27 +511,28 @@ void Mme::handle_create_session(int conn_fd, Packet pkt, UdpClient &sgw_client, 
 	apn_in_use = local_ue_ctx.apn_in_use;
 	tai = local_ue_ctx.tai;
 
-	pkt.clear_pkt();
-	pkt.append_item(s11_cteid_mme);
-	pkt.append_item(imsi);
-	pkt.append_item(eps_bearer_id);
-	pkt.append_item(pgw_s5_ip_addr);
-	pkt.append_item(pgw_s5_port);
-	pkt.append_item(apn_in_use);
-	pkt.append_item(tai);
-	pkt.prepend_gtp_hdr(2, 1, pkt.len, 0);
-	sgw_client.snd(pkt);
-	TRACE(cout << "mme_createsession:" << " create session request sent to sgw: " << guti <<" wr:"<<worker_id <<endl;)
+	//pkt.clear_pkt();
+	//pkt.append_item(s11_cteid_mme);
+	//pkt.append_item(imsi);
+	//pkt.append_item(eps_bearer_id);
+	//pkt.append_item(pgw_s5_ip_addr);
+	//pkt.append_item(pgw_s5_port);
+	//pkt.append_item(apn_in_use);
+	//pkt.append_item(tai);
+	//pkt.prepend_gtp_hdr(2, 1, pkt.len, 0);
+	//sgw_client.snd(pkt);
+	//TRACE(cout << "mme_createsession:" << " create session request sent to sgw: " << guti <<" wr:"<<worker_id <<endl;)
 
-	sgw_client.rcv(pkt);
-	TRACE(cout << "mme_createsession:" << " create session response received sgw: " << guti << endl;)
+	//sgw_client.rcv(pkt);
+	//TRACE(cout << "mme_createsession:" << " create session response received sgw: " << guti << endl;)
 
-	pkt.extract_gtp_hdr();
-	pkt.extract_item(s11_cteid_sgw);
-	pkt.extract_item(ue_ip_addr);
-	pkt.extract_item(s1_uteid_ul);
-	pkt.extract_item(s5_uteid_ul);
-	pkt.extract_item(s5_uteid_dl);
+	//pkt.extract_gtp_hdr();
+	//pkt.extract_item(s11_cteid_sgw);
+	//pkt.extract_item(ue_ip_addr);
+	//pkt.extract_item(s1_uteid_ul);
+	//pkt.extract_item(s5_uteid_ul);
+	//pkt.extract_item(s5_uteid_dl);
+  //TRACE(cout << s11_cteid_sgw << "..." << ue_ip_addr << "..." << s1_uteid_ul << "..."  << s5_uteid_ul << "..." << s5_uteid_dl << endl;) 
 
 	local_ue_ctx.ip_addr = ue_ip_addr;
 	local_ue_ctx.s11_cteid_sgw = s11_cteid_sgw;
@@ -561,6 +585,7 @@ void Mme::handle_create_session(int conn_fd, Packet pkt, UdpClient &sgw_client, 
 }
 
 void Mme::handle_attach_complete(Packet pkt, int worker_id) {
+  load_func();
 	uint64_t guti;
 	uint64_t k_nas_enc;
 	uint64_t k_nas_int;
@@ -614,6 +639,7 @@ void Mme::handle_attach_complete(Packet pkt, int worker_id) {
 }
 
 void Mme::handle_modify_bearer(int conn_fd,Packet pkt, UdpClient &sgw_client, int worker_id) {
+  load_func();
 	uint64_t guti;
 	uint32_t s1_uteid_dl;
 	uint32_t s11_cteid_sgw;
@@ -634,24 +660,25 @@ void Mme::handle_modify_bearer(int conn_fd,Packet pkt, UdpClient &sgw_client, in
 	s1_uteid_dl = local_ue_ctx.s1_uteid_dl;
 	s11_cteid_sgw = local_ue_ctx.s11_cteid_sgw;
 
-	pkt.clear_pkt();
-	pkt.append_item(eps_bearer_id);
-	pkt.append_item(s1_uteid_dl);
-	pkt.append_item(g_trafmon_ip_addr);
-	pkt.append_item(g_trafmon_port);
-	pkt.prepend_gtp_hdr(2, 2, pkt.len, s11_cteid_sgw);
-	sgw_client.snd(pkt);
-	TRACE(cout << "mme_handlemodifybearer:" << " modify bearer request sent to sgw: " << guti <<" wr:"<<worker_id<< endl;)
+	//pkt.clear_pkt();
+	//pkt.append_item(eps_bearer_id);
+	//pkt.append_item(s1_uteid_dl);
+	//pkt.append_item(g_trafmon_ip_addr);
+	//pkt.append_item(g_trafmon_port);
+	//pkt.prepend_gtp_hdr(2, 2, pkt.len, s11_cteid_sgw);
+	//sgw_client.snd(pkt);
+	//TRACE(cout << "mme_handlemodifybearer:" << " modify bearer request sent to sgw: " << guti <<" wr:"<<worker_id<< endl;)
 
-	sgw_client.rcv(pkt);
-	TRACE(cout << "mme_handlemodifybearer:" << " modify bearer response received from sgw: " << guti << endl;)
+	//sgw_client.rcv(pkt);
+	//TRACE(cout << "mme_handlemodifybearer:" << " modify bearer response received from sgw: " << guti << endl;)
 
-	pkt.extract_gtp_hdr();
-	pkt.extract_item(res);
+	//pkt.extract_gtp_hdr();
+	//pkt.extract_item(res);
+  res = true;
 	if (res == false) {
 		TRACE(cout << "mme_handlemodifybearer:" << " modify bearer failure: " << guti << endl;)
 
-				pkt.clear_pkt();
+		pkt.clear_pkt();
 		pkt.append_item("false");
 		server.snd(conn_fd, pkt);
 	}
@@ -674,6 +701,7 @@ void Mme::handle_modify_bearer(int conn_fd,Packet pkt, UdpClient &sgw_client, in
 }
 
 void Mme::handle_detach(int conn_fd, Packet pkt, UdpClient &sgw_client, int worker_id) {
+  load_func();
 	uint64_t guti;
 	uint64_t k_nas_enc;
 	uint64_t k_nas_int;
@@ -723,17 +751,18 @@ void Mme::handle_detach(int conn_fd, Packet pkt, UdpClient &sgw_client, int work
 	pkt.extract_item(detach_type);	
 
 	pkt.clear_pkt();
-	pkt.append_item(eps_bearer_id);
-	pkt.append_item(tai);
-	pkt.prepend_gtp_hdr(2, 3, pkt.len, s11_cteid_sgw);
-	sgw_client.snd(pkt);
-	TRACE(cout << "mme_handledetach:" << " detach request sent to sgw: " << guti << endl;)
+	//pkt.append_item(eps_bearer_id);
+	//pkt.append_item(tai);
+	//pkt.prepend_gtp_hdr(2, 3, pkt.len, s11_cteid_sgw);
+	//sgw_client.snd(pkt);
+	//TRACE(cout << "mme_handledetach:" << " detach request sent to sgw: " << guti << endl;)
 
-	sgw_client.rcv(pkt);
-	TRACE(cout << "mme_handledetach:" << " detach response received from sgw: " << guti << endl;)
+	//sgw_client.rcv(pkt);
+	//TRACE(cout << "mme_handledetach:" << " detach response received from sgw: " << guti << endl;)
 
-	pkt.extract_gtp_hdr();
-	pkt.extract_item(res);
+	//pkt.extract_gtp_hdr();
+	//pkt.extract_item(res);
+  res = true;
 	if (res == false) {
 		TRACE(cout << "mme_handledetach:" << " sgw detach failure: " << guti << endl;)
 												return;

@@ -3,7 +3,7 @@
 
 string g_ran_ip_addr = resolve_host("ran");
 string g_trafmon_ip_addr = resolve_host("ran");
-string g_mme_ip_addr = resolve_host("mme");
+string g_mme_ip_addr = resolve_host("lb");
 int g_trafmon_port = 4000;
 int g_mme_port = 5000;
 
@@ -82,7 +82,7 @@ void TrafficMonitor::handle_uplink_udata(UdpClient &sgw_s1_client) {
 
 	tun.rcv(pkt);
 	ip_addr = g_nw.get_src_ip_addr(pkt);
-	// TRACE(cout << "trafficmonitor_handleuplinkudata:" << " " << pkt.len << ":**" << ip_addr << "**" << endl;)
+   TRACE(cout << "trafficmonitor_handleuplinkudata:" << " " << pkt.len << ":**" << ip_addr << "**" << endl;)
 	res = get_uplink_info(ip_addr, s1_uteid_ul, sgw_s1_ip_addr, sgw_s1_port);
 	if (res == true) {
 		sgw_s1_client.set_server(sgw_s1_ip_addr, sgw_s1_port);
@@ -135,6 +135,7 @@ void Ran::conn_mme() {
 }
 
 void Ran::initial_attach() {
+	TRACE(cout << "ran_initialattach:" << " request sent for ran: " << ran_ctx.imsi << endl;)
 	pkt.clear_pkt();
 	pkt.append_item(ran_ctx.imsi);
 	pkt.append_item(ran_ctx.tai);
@@ -276,6 +277,9 @@ bool Ran::set_eps_session(TrafficMonitor &traf_mon) {
 	pkt.extract_item(epc_addrs.sgw_s1_ip_addr);
 	pkt.extract_item(epc_addrs.sgw_s1_port);
 	pkt.extract_item(res);	
+	
+	TRACE(cout << epc_addrs.sgw_s1_ip_addr << endl;);
+
 	if (res == false) {
 		TRACE(cout << "ran_setepssession:" << " attach request failure: " << ran_ctx.imsi << endl;)
 		return false;
@@ -292,10 +296,13 @@ bool Ran::set_eps_session(TrafficMonitor &traf_mon) {
 		g_integrity.add_hmac(pkt, ran_ctx.k_nas_int);
 	}
 	pkt.prepend_s1ap_hdr(4, pkt.len, ran_ctx.enodeb_s1ap_ue_id, ran_ctx.mme_s1ap_ue_id);
-	mme_client.snd(pkt);
+	mme_client.snd(pkt);;
 	TRACE(cout << "ran_setepssession:" << " attach complete sent to mme: " << pkt.len << ": " << ran_ctx.imsi << endl;)
 	ran_ctx.emm_state = 1;
 	ran_ctx.ecm_state = 1;
+  mme_client.rcv(pkt);
+
+
 	return true;
 }
 

@@ -1,13 +1,13 @@
 #---------------Final Target----------------#
 
-all:	hss.out mme.out pgw.out ransim.out sgw.out sink.out
+all:	hss.out loc.out mme.out pgw.out ransim.out sgw.out sink.out
 
 #-------------------------------------------#
 
 
 #-----------------Compiler------------------#
 
-G++ = g++ -std=c++0x -std=c++11 -std=gnu++0x -ggdb -I./client -Wno-deprecated
+G++ = g++ -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++0x -std=c++11 -std=gnu++0x -ggdb -I./client -Wno-deprecated 
 
 
 #-------------------------------------------#
@@ -26,6 +26,12 @@ hss.o:	diameter.h gtp.h hss.cpp hss.h  network.h packet.h s1ap.h sctp_server.h s
 
 hss_server.o:	diameter.h gtp.h hss.h hss_server.cpp hss_server.h network.h packet.h s1ap.h sctp_server.h sync.h utils.h
 	$(G++) -c -o hss_server.o hss_server.cpp	
+
+loc.o:	diameter.h gtp.h loc.cpp loc.h network.h packet.h s1ap.h sctp_client.h sctp_server.h security.h sync.h telecom.h udp_client.h utils.h
+	$(G++) -c -o loc.o loc.cpp -Wno-deprecated -lboost_serialization
+
+loc_server.o:	diameter.h gtp.h loc.h loc-server.cpp loc-server.h network.h packet.h s1ap.h sctp_client.h sctp_server.h security.h sync.h telecom.h udp_client.h utils.h
+	$(G++) -c -o loc_server.o loc-server.cpp	
 
 mme.o:	diameter.h gtp.h mme.cpp mme.h network.h packet.h s1ap.h sctp_client.h sctp_server.h security.h sync.h telecom.h udp_client.h utils.h
 	$(G++) -c -o mme.o mme.cpp -Wno-deprecated -lboost_serialization
@@ -101,6 +107,9 @@ utils.o:	utils.cpp utils.h
 HSS_P = diameter.o gtp.o hss.o hss_server.o  network.o packet.o s1ap.o sctp_server.o sync.o utils.o
 HSS_R = $(G++) -o hss.out $(HSS_P) -pthread -lboost_serialization -Wno-deprecated -lkvstore
 
+LOC_P = diameter.o gtp.o loc.o loc_server.o network.o packet.o s1ap.o sctp_client.o sctp_server.o security.o sync.o telecom.o udp_client.o utils.o
+LOC_R = $(G++) -o loc.out $(LOC_P) -pthread -lcrypto -lboost_serialization -Wno-deprecated
+
 MME_P = diameter.o gtp.o mme.o mme_server.o network.o packet.o s1ap.o sctp_client.o sctp_server.o security.o sync.o telecom.o udp_client.o utils.o
 MME_R = $(G++) -o mme.out $(MME_P) -pthread -lcrypto -lboost_serialization -Wno-deprecated
 
@@ -123,6 +132,9 @@ SINK_R = $(G++) -o sink.out $(SINK_P) -pthread
 
 hss.out:	$(HSS_P)
 	$(HSS_R)
+
+loc.out: $(LOC_P)
+	$(LOC_R)
 
 mme.out:	$(MME_P)
 	$(MME_R)

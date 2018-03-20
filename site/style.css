@@ -1,0 +1,16 @@
+body {
+    background-color: 141414;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+p {
+    color: #D8D9DA;
+    font-family: sans-serif;
+}
+
+.graph p {
+  text-align: center;
+}
